@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb5e80e5-b485-4dbd-bb8f-18bface0a542">
+  <producedTypes>
+    <managerType typeId="453d83c6-62d2-41b8-ab63-69facff6239d" valueTypeId="70b1a48d-65ad-49af-833f-0ab5ff1dc431"/>
+    <valueManagerType typeId="fcd93ba3-de5e-4b59-a74a-b477ef9a962a" valueTypeId="b3f3eb15-bb88-4be4-ae2d-9f8b25a23a97"/>
+    <valueKeyType typeId="a7f496be-d23c-4ecf-80dd-c36f6da473ab" valueTypeId="203193a3-e824-4dae-b1ee-14d99c96ae2c"/>
+  </producedTypes>
+  <name>ИспользоватьПодсказкуКодовОКВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсказку кодов ОКВЭД</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48e3c7b2-92d3-4cc2-a600-64a99201ab97">
+  <name>ПараметрыПодключенияСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры подключения сервисов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ПараметрыПодключенияКСервисуРегистрации</content>
+  <content>CommonCommand.ПараметрыПодключенияКСервисуРегиональныеСтавкиНалогов</content>
+  <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
+</mdclass:Subsystem>

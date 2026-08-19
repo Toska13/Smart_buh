@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c58cfcf6-ed44-4c73-ac7e-a33608b69202">
+  <producedTypes>
+    <objectType typeId="ac595c33-1a29-4ceb-a708-41e3f44bdbf1" valueTypeId="f06e7526-abd5-4faa-b5a0-39bc757447f8"/>
+    <managerType typeId="bf67634a-33fe-4071-8305-99101d0d36f6" valueTypeId="71afbe29-bd11-4b31-b3e5-062f251da82d"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеЕСХН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об отказе/утрате права на ЕСХН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="76cb6dcf-f28c-4dbc-a498-d6cab9e8d1ad">
+    <name>Форма2026_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об отказе от применения системы налогообложения для сельскохозяйственных товаропроизводителей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="669f4fb3-849c-4473-bcd7-505a645a65bd">
+    <name>Форма2026_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об отказе от применения системы налогообложения для сельскохозяйственных товаропроизводителей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="12270aa8-4a02-4479-a986-8c39c906977b">
+    <name>Печать_Форма2026_1_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="b2a882f4-0235-46f9-83ae-fc71684d77ff">
+    <name>Печать_Форма2026_2_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="70c54441-01c3-4875-9aa3-4c8d3fb8dce5">
+    <name>СхемаВыгрузкиФорма2026_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="32116774-617c-4b07-98e4-4015bc6189fd">
+    <name>СхемаВыгрузкиФорма2026_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="04425d2b-6a46-443f-87c1-d082f2e93559">
+    <name>TIFF_2026_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1150008_5.02000_02.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7ac671fb-88aa-4e0f-9abc-bff0b68cae2e">
+    <name>TIFF_2026_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>1150015_5.02000_02.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="36025857-26e2-49c8-92e1-3c41426d7814">
+    <name>СпискиВыбора2026_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="c0b1144a-4f5a-476a-85cc-84aa1e5df50e">
+    <name>СпискиВыбора2026_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="c5f75684-e8e4-43ec-8d50-410067c0660d">
+    <name>Титульная_2026_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="dc86b02a-72e0-4a8d-9dea-4a12738b2f38">
+    <name>Титульная_2026_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

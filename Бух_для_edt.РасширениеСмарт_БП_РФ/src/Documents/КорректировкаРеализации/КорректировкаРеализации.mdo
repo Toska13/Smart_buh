@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71c7c3be-a967-4780-899c-21393f52a2e5" extendedConfigurationObject="26a1941f-e6b8-474e-911f-e5b0e2339db3">
+  <producedTypes>
+    <objectType typeId="bddd15ef-27b8-4073-968c-639804f13664" valueTypeId="aa594619-9a89-439e-879e-acf0ac99599d"/>
+    <refType typeId="b85102be-2ea1-4d99-8a1a-dbb341cc00c3" valueTypeId="25ceb23b-c11b-49e1-8608-7a4d58fae92a"/>
+    <selectionType typeId="a0fa2a8c-9fc3-41a7-8d71-444931fa622e" valueTypeId="bb402017-0a9e-47e4-b6e7-59e3edf5101e"/>
+    <listType typeId="dc11b6b3-9221-4fd8-8011-eb38cf51c4e9" valueTypeId="433587fb-23be-401d-93bc-7c3e265190ba"/>
+    <managerType typeId="9440694e-5ee9-47e6-92b3-778226b4b464" valueTypeId="a58bec39-68ec-466d-928b-3b9f2734a5d2"/>
+  </producedTypes>
+  <name>КорректировкаРеализации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Document>

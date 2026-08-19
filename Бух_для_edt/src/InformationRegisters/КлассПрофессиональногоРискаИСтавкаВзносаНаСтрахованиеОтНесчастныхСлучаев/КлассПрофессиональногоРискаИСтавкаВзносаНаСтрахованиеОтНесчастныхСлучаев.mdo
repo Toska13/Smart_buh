@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc2105d0-dc5e-4ec0-8929-b07cfd41b851">
+  <producedTypes>
+    <selectionType typeId="451d54c7-9394-437c-932d-7babc2bc0373" valueTypeId="b335e4a0-7933-4e62-aa31-79da3cad5e74"/>
+    <listType typeId="a9f91482-c79b-475e-bbdf-bdd014f5a19a" valueTypeId="46bd1048-86b0-4619-9e9e-675979cb7635"/>
+    <managerType typeId="d94fe2a5-ee86-4a5a-ae35-907bd428482d" valueTypeId="0ff375c7-9734-4db1-b89d-f4c59e9fe595"/>
+    <recordSetType typeId="85f7668d-5226-4d18-8bb3-cb3a62c7ed30" valueTypeId="94d90df7-c4ea-4808-999b-fb16691641f6"/>
+    <recordKeyType typeId="d2f8a319-7b39-418f-acf3-02b9895d7554" valueTypeId="842403c4-6f24-4fdf-b3b7-88f6994efbdd"/>
+    <recordType typeId="f99365a3-6151-45aa-86a2-220b4735a646" valueTypeId="dc3f519e-8334-49f9-833d-18511975d93f"/>
+    <recordManagerType typeId="947da689-fef6-4710-9bfd-2d506cc870b2" valueTypeId="2a0a2ef3-a1b5-4eab-9393-3241c69c0b7b"/>
+  </producedTypes>
+  <name>КлассПрофессиональногоРискаИСтавкаВзносаНаСтрахованиеОтНесчастныхСлучаев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Класс профессионального риска и ставка взноса на страхование от несчастных случаев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6493080e-4e68-4d9b-9018-dacb043439bc">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка, %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5814c249-4f6b-4537-80fb-b35ba26ead8a">
+    <name>КлассПрофессиональногоРиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс профессионального риска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="f11bc43f-86d2-4983-ab9c-b3c8346bfdcd">
+    <name>ПредопределенныеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные значения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

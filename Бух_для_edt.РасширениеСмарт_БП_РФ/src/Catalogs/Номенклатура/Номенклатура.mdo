@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="02b7ee51-a3ff-4ba9-8437-2deda5b1338e" extendedConfigurationObject="5f197938-cf2f-4e57-be65-dc23d91ea059">
+  <producedTypes>
+    <objectType typeId="a808a554-a5cd-44e0-ae28-83d70657920c" valueTypeId="d23dbc60-905c-4dc2-8c08-77dc24dea3b6"/>
+    <refType typeId="6670f935-9354-4e5f-aed4-2109a58c1e21" valueTypeId="3f3cd90f-b07a-463c-ba7e-057053f783b4"/>
+    <selectionType typeId="5588df28-ee46-4e98-817a-8afc8af25382" valueTypeId="5329520f-b848-4567-894a-d88c94a7a4d6"/>
+    <listType typeId="f79fafe3-6258-4a02-a4af-4ae3f5e4f965" valueTypeId="6faaf1b1-5bd8-44dc-918d-cc458bf1b9a4"/>
+    <managerType typeId="1df6cfe0-c285-4b8b-b508-2cc096c47acc" valueTypeId="20218617-5bfc-43f3-99a2-847dd78f384c"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>11</codeLength>
+  <codeType>String</codeType>
+  <attributes uuid="0478f7c2-3be3-40ce-a440-e0ae09675dce" extendedConfigurationObject="8a73fbc9-3461-4176-9231-1bde86327bff">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="d779feda-fc86-4d41-9aad-ce0695758321" extendedConfigurationObject="e78d9154-2725-4305-80f5-f51e13ac3c5a">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторЕдиницИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="c6014ef9-c50a-4da5-9538-90208591638b" extendedConfigurationObject="2e3fd9d2-2bab-48ab-9cae-007666557e20">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e0b91ad7-1244-4a04-bf90-256fd4b1457e" extendedConfigurationObject="64dfc119-cedf-4455-9db1-476b51699985">
+  <producedTypes>
+    <objectType typeId="fcbd212a-4e3b-46d5-b824-65fde0d3870a" valueTypeId="c03a0405-1163-45eb-a1d5-22f5e6c68266"/>
+    <refType typeId="76fd1e4a-faff-4868-b38a-ac509cee3347" valueTypeId="7d8d8ab9-4143-4918-b63e-7552865df532"/>
+    <selectionType typeId="16dcd36c-3f3a-4fe2-b1e0-a247c154ea2b" valueTypeId="40153d91-5635-4a9b-8b8a-cff1056376e3"/>
+    <listType typeId="519c26eb-da4c-48f1-b66d-dfc69de9fd4c" valueTypeId="213b9735-81f6-42c5-b8cb-f3676c820dad"/>
+    <managerType typeId="c08dff93-7476-483a-89d3-706891a1f5e7" valueTypeId="b8261d85-b145-4438-a410-0f7142fc22f5"/>
+  </producedTypes>
+  <name>КорректировкаДолга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="24f56715-bfde-4ffe-82e7-3ea562f7c3b5" extendedConfigurationObject="f8919631-7946-4aad-9408-c6d66f7e2067">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5b254b2f-f540-45e2-96fb-de084b54bb45" extendedConfigurationObject="eeb45b0f-ccbd-43f5-8a9c-cd750e110949">
+  <producedTypes>
+    <objectType typeId="9236b195-65eb-4ddd-9b95-52b78a169c99" valueTypeId="a3f30fed-af65-4fb5-9537-4e74581a0365"/>
+    <managerType typeId="4c31e317-72e0-4649-8a22-9b39a0f6f81f" valueTypeId="8784d216-1c42-47d8-9039-9a33be8643f7"/>
+  </producedTypes>
+  <name>РегистрацияСчетовФактурНаАванс</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="d2dd9f9a-8e68-4015-b9a3-8cf8aa7fe601" extendedConfigurationObject="e10ce1d0-65de-42c1-b3d1-9a9121f998f2">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

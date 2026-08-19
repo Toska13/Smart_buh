@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6988e7c8-60ee-4bda-8608-3e6ca4f91e84">
+  <name>ИнтеграцияСРаботаРоссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Работа России</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonPicture.ПередатьНаРаботаРоссии</content>
+  <content>CommonModule.ИнтеграцияСРаботаРоссии</content>
+  <content>Constant.ИспользоватьИнтеграциюСРаботаРоссии</content>
+  <content>CommonModule.ИнтеграцияСРаботаРоссииКлиент</content>
+  <content>InformationRegister.ИдентификаторыДокументовНаРаботаРоссии</content>
+  <content>CommonModule.ИнтеграцияСРаботаРоссииВызовСервера</content>
+  <content>ScheduledJob.ПолучениеДокументовРаботаРоссии</content>
+  <content>CommonForm.ИнтеграцияСПорталомРаботаРоссии</content>
+  <content>FunctionalOption.ИспользоватьИнтеграциюСРаботаРоссии</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПодсистемы.Subsystem.КадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

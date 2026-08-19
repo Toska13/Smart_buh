@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7be74f59-d4e4-44cf-9f04-18b17f5fed1d" extendedConfigurationObject="6777c8a2-a5d8-4894-bf4d-8ebb48b8c41d">
+  <producedTypes>
+    <refType typeId="61138082-7217-41ad-b1b9-5a9f0c3fac6d" valueTypeId="9c6f327a-0474-4da6-8891-564b5cacd660"/>
+    <listType typeId="edb3852f-8d21-45aa-bee6-c69e27a710f8" valueTypeId="d9f8a957-1999-41fb-83e2-32cbd24fa3b8"/>
+    <managerType typeId="58c182f0-6110-44c8-8311-712ce9e8f2bb" valueTypeId="a0b416e6-7220-49fe-b894-d0d2fe0a18a5"/>
+  </producedTypes>
+  <name>ВидыОперацийПоступлениеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="9bb99f23-0413-41c8-8ec7-8c3d1b137fd3" extendedConfigurationObject="fa53ffd2-f8df-43a2-8814-0b86244e74e0">
+    <name>ПереводСДругогоСчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

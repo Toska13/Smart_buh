@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="019a9e05-a59b-4950-9b80-048b4a6d064f">
+  <name>ЗаказНаДоставкуСДЭК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ на доставку СДЭК</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DefinedType.ОснованиеЗаказаСервисДоставки</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

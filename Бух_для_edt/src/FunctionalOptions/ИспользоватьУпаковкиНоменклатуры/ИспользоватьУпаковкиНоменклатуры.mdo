@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cddbc98c-5317-48af-a214-6bcdf10544c5">
+  <name>ИспользоватьУпаковкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать упаковки номенклатуры</value>
+  </synonym>
+  <location>Constant.ИспользоватьУпаковкиНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.УпаковкиНоменклатуры</content>
+</mdclass:FunctionalOption>

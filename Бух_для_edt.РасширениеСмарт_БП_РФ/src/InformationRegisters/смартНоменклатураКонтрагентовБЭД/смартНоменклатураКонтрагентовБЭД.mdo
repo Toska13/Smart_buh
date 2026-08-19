@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71b5e7dc-13f1-4d9d-a16d-2376cc99791f" extendedConfigurationObject="9e6053f8-9f7a-4a01-a2d6-9b7680c34272">
+  <producedTypes>
+    <selectionType typeId="6d236668-2897-43b4-b4a7-ba6db1117f15" valueTypeId="14282866-b29b-465e-aee2-43eccc426b93"/>
+    <listType typeId="f425fe6a-3323-40ff-a36e-b5f9dd3cfda1" valueTypeId="60380e46-50af-4b0f-9ce5-9ed9e5fea76a"/>
+    <managerType typeId="93889909-b23f-4312-8076-259dcace2402" valueTypeId="f804c5b7-432d-4154-b2f4-8826d54051a5"/>
+    <recordSetType typeId="14d89f15-1126-41e7-b5e7-b36299fde794" valueTypeId="83a9dd04-5829-4125-85b1-5584260004e7"/>
+    <recordKeyType typeId="0b09b053-3710-428c-ac6e-292b8c1b0ac8" valueTypeId="f4d03f58-030d-4886-848e-11712d6aa6f8"/>
+    <recordType typeId="f7b2e4c2-f1b8-454d-938a-e4a1e02b72ca" valueTypeId="fd61defa-177f-41f3-aed8-61aa8240ebc9"/>
+    <recordManagerType typeId="fe8e172a-2130-451e-99b2-94625e49cb0d" valueTypeId="bb4d394f-87f1-4d65-8d51-475f92e0334f"/>
+  </producedTypes>
+  <name>смартНоменклатураКонтрагентовБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

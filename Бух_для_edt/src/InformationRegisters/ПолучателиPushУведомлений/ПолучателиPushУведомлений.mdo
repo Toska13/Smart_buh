@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32556287-fe97-417f-abe4-9851d3103ea0">
+  <producedTypes>
+    <selectionType typeId="dbf73b78-b63b-4164-ab30-170d9c4ec8a7" valueTypeId="0fa801f8-4366-4d86-a8cd-e2c6910a8e1a"/>
+    <listType typeId="bc65d90e-8dbc-4838-8a12-a1d574f09dde" valueTypeId="a3cba2e9-0836-4fb3-b841-71ba2112ce97"/>
+    <managerType typeId="2d154831-3225-44c0-8887-d89e109efe2c" valueTypeId="ba238a69-6c84-42cc-93a4-98e48284d413"/>
+    <recordSetType typeId="c410334c-495a-4e4c-aa21-7f700474bb40" valueTypeId="7b3c4b70-412a-436a-9d2b-b6fb61ab47a6"/>
+    <recordKeyType typeId="eb4bcccc-53dc-4d82-8af8-632e03ec971b" valueTypeId="42a85ba9-52ca-43c1-9867-178a04b2223b"/>
+    <recordType typeId="df80a154-fb71-401f-aaed-4683508866b2" valueTypeId="f655d5db-3e06-4441-900d-1b3972a952c9"/>
+    <recordManagerType typeId="daeddd8d-7e00-4155-a930-c50fd8c835a5" valueTypeId="24d551e8-b7e0-4700-beae-b410d811d56a"/>
+  </producedTypes>
+  <name>ПолучателиPushУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели push уведомлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c88e27d5-9d19-4726-9ca2-a8bb88e804a0">
+    <name>ИдентификаторПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор получателя</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f7eaed66-3f30-43d5-89c4-32f0d2f4caff">
+    <name>РассылатьПоСпискуЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылать по списку задач</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b1ae72af-8c57-4157-b9e0-885172e86001">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

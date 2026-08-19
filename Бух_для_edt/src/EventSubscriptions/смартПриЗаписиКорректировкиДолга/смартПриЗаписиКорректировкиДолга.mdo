@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa3ce8cf-5cb6-4683-ba3d-1a533f923606">
+  <name>смартПриЗаписиКорректировкиДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи корректировки долга (Смарт)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.КорректировкаДолга</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.смартОбщегоНазначения.ПриЗаписиКорректировкиДолгаПриЗаписи</handler>
+</mdclass:EventSubscription>

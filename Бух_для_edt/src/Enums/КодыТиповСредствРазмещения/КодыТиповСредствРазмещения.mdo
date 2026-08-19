@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c056f93f-11c6-49d8-b977-6ffa602af1d1">
+  <producedTypes>
+    <refType typeId="b4d5f930-f8cc-43b5-acaf-8f4987e0bc3b" valueTypeId="012c11b7-90ae-4673-bbb4-ee8a20c40d51"/>
+    <listType typeId="fe3484a5-4af5-4792-9304-28b7650721c2" valueTypeId="e63128bc-be55-415f-b878-48cceb9d6d3c"/>
+    <managerType typeId="604db003-eeb7-40e7-bc82-72d020c7877a" valueTypeId="e8ab5b10-085a-43bc-b82b-3980dd3ce9fd"/>
+  </producedTypes>
+  <name>КодыТиповСредствРазмещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды типов средств размещения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cdf28a18-8c04-4283-bb98-fe6efa709d7d">
+    <name>Гостиницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиницы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85ff726b-4046-4f2d-9c97-594c2f28e74a">
+    <name>Санатории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Санатории</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e0f3697-ab1a-4187-8573-00564513cbf7">
+    <name>БазыОтдыха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базы отдыха</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c46cff8e-6438-482b-a115-d2de0fcdb83a">
+    <name>Кемпинги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кемпинги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b79748ce-e93b-4ad5-9d5d-225d822a733f">
+    <name>ГостевыеДома</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гостевые дома</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="918baf38-72b8-44e6-b141-199ed5ddd02c">
+    <name>Иные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dc2f352-3fae-4082-bd6a-30b6e8bd7a40">
+  <name>НастройкаОбмена1СКАМИНБухгалтерия3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка обмена 1С-КАМИН  Бухгалтерия 3</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject.Обмен1С_КАМИН_ЗарплатаБухгалтерия30</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.УчетЗарплаты.НастройкаОбмена1СКАМИНБухгалтерия3</handler>
+</mdclass:EventSubscription>

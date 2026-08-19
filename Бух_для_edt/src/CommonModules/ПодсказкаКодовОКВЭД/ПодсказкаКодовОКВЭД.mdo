@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6154dd90-3b3e-471d-80c6-da17aa95a2d6">
+  <name>ПодсказкаКодовОКВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсказка кодов ОКВЭД</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

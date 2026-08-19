@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9969631e-7821-4867-b1e0-eb3dce7753b4">
+  <name>Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Бюджет</content>
+  <content>Document.Бюджет</content>
+  <content>Report.ПланФактныйАнализБюджета</content>
+  <content>StyleItem.ШрифтНаправлениеДеятельностиБюджета</content>
+  <content>StyleItem.ШрифтРазделБюджета</content>
+  <parentSubsystem>Subsystem.БанкИКасса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2c124c8-5bec-4bdb-9316-f64c83abc22b">
+  <name>смартУведомленияПриОтменеПроведенияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смарт уведомления при отмене проведения документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.смартУведомления.смартУведомленияПриОтменеПроведенияДокументаОбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

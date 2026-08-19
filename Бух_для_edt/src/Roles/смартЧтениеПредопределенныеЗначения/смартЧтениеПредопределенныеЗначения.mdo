@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c81e137f-3db1-4435-9425-3ba1208352bc">
+  <name>смартЧтениеПредопределенныеЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение предопределенные значения (смарт)</value>
+  </synonym>
+  <comment>Добавлено по задаче 1304, перенесно из расширения по задаче 1447</comment>
+</mdclass:Role>

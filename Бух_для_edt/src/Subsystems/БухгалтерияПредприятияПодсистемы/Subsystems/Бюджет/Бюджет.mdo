@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c520579-d6af-4869-82a9-a8a52e1ad6ad">
+  <name>Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.БюджетДоходовРасходов</content>
+  <content>CommonModule.БюджетДоходовРасходовКлиентСервер</content>
+  <content>FunctionalOption.ВестиУчетБюджета</content>
+  <content>StyleItem.ШрифтНаправлениеДеятельностиБюджета</content>
+  <content>StyleItem.ШрифтРазделБюджета</content>
+  <content>Constant.ВестиУчетБюджета</content>
+  <content>Document.Бюджет</content>
+  <content>DataProcessor.Бюджет</content>
+  <content>InformationRegister.СтруктураБюджетаДоходы</content>
+  <content>InformationRegister.СтруктураБюджетаРасходы</content>
+  <content>AccumulationRegister.БюджетДоходы</content>
+  <content>AccumulationRegister.БюджетРасходы</content>
+  <content>StyleItem.НаклонныйШрифтКорректировкаБюджета</content>
+  <content>Document.КорректировкаБюджета</content>
+  <content>DataProcessor.КорректировкаБюджета</content>
+  <content>StyleItem.ЦветПоложительногоИзмененияБюджета</content>
+  <content>StyleItem.ШрифтНаправлениеДеятельностиБюджетаНаклонный</content>
+  <content>StyleItem.ШрифтРазделБюджетаНаклонный</content>
+  <content>DataProcessor.ЗагрузкаБюджетаИзФайла</content>
+  <parentSubsystem>Subsystem.БухгалтерияПредприятияПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a72c7d05-dfca-43f0-b261-3132f55cad3a">
+  <name>смартСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смарт синхронизация данных через универсальный формат регистрация документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОперацияБух</types>
+    <types>DocumentObject.КорректировкаДолга</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.смартОбщегоНазначения.смартСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияДокументаПередЗаписью</handler>
+</mdclass:EventSubscription>

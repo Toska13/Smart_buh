@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="678b2431-ef6c-435a-b327-0864c3b720fe">
+  <producedTypes>
+    <managerType typeId="31da5d3a-0b0a-4e7f-9339-f2008424a88c" valueTypeId="e30f2e8d-8dea-4a50-b709-03cbdcc4e10d"/>
+    <valueManagerType typeId="2c342549-412b-495c-bc1f-0c13cac83bae" valueTypeId="7e75951d-3b75-4e53-8c6c-caae1fc08d79"/>
+    <valueKeyType typeId="6ef6ea79-d2b7-4e74-ab58-241bc9794c52" valueTypeId="6dc6bc63-950f-4e1f-9ff6-8dddd2cf0005"/>
+  </producedTypes>
+  <name>ОтображатьДополнительнуюИнформациюВСпискеИмущество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать дополнительную информацию в списке &quot;Имущество&quot;</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

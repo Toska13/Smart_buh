@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="575f7df2-10f7-4211-8600-89ebf8856cff" extendedConfigurationObject="1505da67-c66e-409d-a310-994d0f007f25" thisNode="7fe4cf5e-5a78-4f57-a469-46cdcae16734">
+  <producedTypes>
+    <objectType typeId="e29e04f5-9eb8-4ea7-9ad3-1b6719d53932" valueTypeId="05f7a1cc-1e15-4e8f-a2ef-6c7f618653c3"/>
+    <refType typeId="ea8f5313-65ea-4483-8d9d-9e29eb4be679" valueTypeId="81f343f2-8e58-47bc-82aa-5ce9721ab699"/>
+    <selectionType typeId="28e2ecb8-5ac7-4e52-bcf1-1067c054596d" valueTypeId="74ebee91-57bd-4a0d-b0ea-1e62d8be711d"/>
+    <listType typeId="dacf4420-45f3-4d58-8d5c-a02a9dd9c974" valueTypeId="ad29a575-a165-45aa-a9e9-43bfff296e00"/>
+    <managerType typeId="72b1e95a-2f8e-4fd8-8ebc-c72907a33ac4" valueTypeId="3952520e-9b3d-47a5-9be3-66b98ccf9ae3"/>
+  </producedTypes>
+  <name>смартМаркировка</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ExchangePlanExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:ExchangePlan>

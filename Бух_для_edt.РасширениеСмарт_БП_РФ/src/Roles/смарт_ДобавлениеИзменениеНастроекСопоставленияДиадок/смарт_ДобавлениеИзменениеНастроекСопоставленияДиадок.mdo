@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5ba446d-92d0-4a13-be2f-ff955a8b9df2">
+  <name>смарт_ДобавлениеИзменениеНастроекСопоставленияДиадок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настроек сопоставления Диадок (смарт)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bba9b85-a56a-42a4-9697-d4db7fcd4319">
+  <name>ВестиУчетБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет бюджета</value>
+  </synonym>
+  <location>Constant.ВестиУчетБюджета</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.ВестиУчетБюджета</content>
+  <content>DataProcessor.Бюджет</content>
+  <content>Document.Бюджет</content>
+  <content>InformationRegister.СтруктураБюджетаРасходы</content>
+  <content>InformationRegister.СтруктураБюджетаДоходы</content>
+  <content>AccumulationRegister.БюджетДоходы</content>
+  <content>AccumulationRegister.БюджетРасходы</content>
+  <content>Report.ПланФактныйАнализБюджета</content>
+  <content>Subsystem.БухгалтерияПредприятияПодсистемы.Subsystem.Бюджет</content>
+  <content>Subsystem.БанкИКасса.Subsystem.Бюджет</content>
+  <content>Document.ПоступлениеНаРасчетныйСчет.Attribute.НаправлениеДеятельности</content>
+  <content>DataProcessor.КорректировкаБюджета</content>
+  <content>Document.КорректировкаБюджета</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.НаправлениеДеятельности</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.НаправлениеДеятельности</content>
+  <content>Document.СписаниеСРасчетногоСчета.Attribute.НаправлениеДеятельности</content>
+  <content>Document.ПлатежноеПоручение.Attribute.НаправлениеДеятельности</content>
+</mdclass:FunctionalOption>

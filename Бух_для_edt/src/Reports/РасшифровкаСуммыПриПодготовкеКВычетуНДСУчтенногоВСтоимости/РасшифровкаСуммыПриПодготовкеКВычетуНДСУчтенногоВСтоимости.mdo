@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d5bceb5-f60d-427c-9514-3612ae964b5e">
+  <producedTypes>
+    <objectType typeId="4d8f9b92-d643-4095-9a7a-16ad9911d978" valueTypeId="87196f90-40df-4c1f-8560-ffd0af4e8132"/>
+    <managerType typeId="402aff9e-c0ff-49bb-8f99-615b47853107" valueTypeId="af8be52a-6bd4-4a3c-a216-5944d187e886"/>
+  </producedTypes>
+  <name>РасшифровкаСуммыПриПодготовкеКВычетуНДСУчтенногоВСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расшифровка суммы при подготовке к вычету НДС, учтенного в стоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасшифровкаСуммыПриПодготовкеКВычетуНДСУчтенногоВСтоимости.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="2fa68361-66e8-4b38-bc34-8874ad3e1570">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="4682d993-ecc6-45eb-84c3-9cbd330f247d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

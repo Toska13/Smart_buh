@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Как перейти на АУСН</value>
+  </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаПроверкаУсловийПримененияАУСН</name>
+    <id>12</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияПроверкаУсловийПримененияАУСН</name>
+      <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация проверка условий применения АУСН</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияПроверкаУсловийПримененияАУСНРасширеннаяПодсказка</name>
+        <id>16</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияПроверкаУсловийПримененияАУСНКонтекстноеМеню</name>
+        <id>15</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Этап1</picture>
+        </picture>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеПроверкаУсловийПримененияАУСН</name>
+      <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;font Arial>&lt;fontsize 14>&lt;bgcolor #ffffff>&lt;color #333333>Проверьте соответствие условиям применения&lt;/>&lt;/>&lt;/>&lt;/></value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеПроверкаУсловийПримененияАУСНРасширеннаяПодсказка</name>
+        <id>3</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеПроверкаУсловийПримененияАУСНКонтекстноеМеню</name>
+        <id>2</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа проверка условий применения АУСН</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаПроверкаУсловийПримененияАУСНРасширеннаяПодсказка</name>
+      <id>13</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <verticalAlign>Center</verticalAlign>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОписаниеПроверкаУсловийПримененияАУСН</name>
+    <id>28</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияПроверкаУсловийПримененияАУСНОтступ</name>
+      <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация проверка условий применения АУСНОтступ</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияПроверкаУсловийПримененияАУСНОтступРасширеннаяПодсказка</name>
+        <id>32</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияПроверкаУсловийПримененияАУСНОтступКонтекстноеМеню</name>
+        <id>31</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <width>3</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.РегистрацияОтступЭтапа</picture>
+        </picture>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДеталиОписаниеПроверкаУсловийПримененияАУСН</name>
+      <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #000000>• Регистрация в субъекте РФ, в котором &lt;/>&lt;/>&lt;/>&lt;/>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #000000>применяется АУСН&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;color #000000>• Годовой доход — не более 60 млн руб.&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;color #000000>• Средняя численность сотрудников — не более 5 человек в месяц&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;color #000000>• Расчетные счета открыты только в &lt;/>&lt;/>&lt;/>&lt;link https://ausn.nalog.gov.ru/#block07ancor>&lt;font Arial>&lt;fontsize 10>&lt;color #1c55ae>уполномоченных банках&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;color #000000>• Остаточная стоимость основных средств — не более 150 млн руб.&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;color #000000>• Зарплата выплачивается в безналичной форме &lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;color #000000>• Отсутствуют филиалы и обособленные подразделения&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;color #000000>• Не применяются другие налоговые режимы&lt;/>&lt;/>&lt;/>
+
+&lt;font Almarai>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #000000>Ограничение после перехода: в течение 12 месяцев после перехода на АУСН нельзя добровольно сменить налоговый режим.&lt;/>&lt;/>&lt;/>&lt;/></value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДеталиОписаниеПроверкаУсловийПримененияАУСНРасширеннаяПодсказка</name>
+        <id>11</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДеталиОписаниеПроверкаУсловийПримененияАУСНКонтекстноеМеню</name>
+        <id>10</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа описание проверка условий применения АУСН</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаОписаниеПроверкаУсловийПримененияАУСНРасширеннаяПодсказка</name>
+      <id>29</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаВыборВариантаПереходаНаАУСН</name>
+    <id>40</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияВыборВариантаПереходаНаАУСН</name>
+      <id>42</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация выбор варианта перехода на АУСН</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияВыборВариантаПереходаНаАУСНРасширеннаяПодсказка</name>
+        <id>44</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияВыборВариантаПереходаНаАУСНКонтекстноеМеню</name>
+        <id>43</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Этап2</picture>
+        </picture>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ВыборВариантаПереходаНаАУСН</name>
+      <id>45</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;font Arial>&lt;fontsize 14>&lt;bgcolor #ffffff>&lt;color #333333>Выберите вариант перехода&lt;/>&lt;/>&lt;/>&lt;/></value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ВыборВариантаПереходаНаАУСНРасширеннаяПодсказка</name>
+        <id>47</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВыборВариантаПереходаНаАУСНКонтекстноеМеню</name>
+        <id>46</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа выбор варианта перехода на АУСН</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаВыборВариантаПереходаНаАУСНРасширеннаяПодсказка</name>
+      <id>41</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <verticalAlign>Center</verticalAlign>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаДеталиВыборВариантаПереходаНаАУСН</name>
+    <id>48</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияДеталиВыборВариантаПереходаНаАУСНОтступ</name>
+      <id>50</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация проверка условий перехода на АУСН отступ</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияДеталиВыборВариантаПереходаНаАУСНОтступРасширеннаяПодсказка</name>
+        <id>52</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияДеталиВыборВариантаПереходаНаАУСНОтступКонтекстноеМеню</name>
+        <id>51</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <width>3</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.РегистрацияОтступЭтапа</picture>
+        </picture>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДеталиВыборВариантаПереходаНаАУСН</name>
+      <id>53</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #000000>• С начала календарного года&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>   - подходит для всех организаций и ИП&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>   - уведомление о переходе нужно подать в ФНС не позднее 31 декабря текущего года&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>• С начала любого месяца&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>   - подходит для организации и ИП на УСН, ИП на НПД&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>   - уведомление о переходе нужно подать в ФНС не позднее последнего дня месяца, предшествующего переходу&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>• С даты постановки на учет &lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>   - подходит для новых организаций и ИП&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;fontsize 10>   - уведомление о переходе нужно подать в ФНС в течение 30 календарных дней с даты постановки на учет&lt;/>&lt;/>&lt;/>
+&lt;fontsize 12>&lt;color #000000>&lt;/>&lt;/>
+</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДеталиВыборВариантаПереходаНаАУСНРасширеннаяПодсказка</name>
+        <id>55</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДеталиВыборВариантаПереходаНаАУСНКонтекстноеМеню</name>
+        <id>54</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа детали выбор варианта перехода на АУСН</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаДеталиВыборВариантаПереходаНаАУСНРасширеннаяПодсказка</name>
+      <id>49</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОтправкаУведомленияВФНС</name>
+    <id>17</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияОтправкаУведомленияВФНС</name>
+      <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация отправка уведомления ВФНС</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияОтправкаУведомленияВФНСРасширеннаяПодсказка</name>
+        <id>24</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияОтправкаУведомленияВФНСКонтекстноеМеню</name>
+        <id>23</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Этап3</picture>
+        </picture>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеОтправкаУведомленияВФНС</name>
+      <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;font Arial>&lt;fontsize 14>&lt;bgcolor #ffffff>&lt;color #333333>Подайте уведомление в ФНС&lt;/>&lt;/>&lt;/>&lt;/></value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеОтправкаУведомленияВФНСРасширеннаяПодсказка</name>
+        <id>8</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеОтправкаУведомленияВФНСКонтекстноеМеню</name>
+        <id>7</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа отправка уведомления ВФНС</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаОтправкаУведомленияВФНСРасширеннаяПодсказка</name>
+      <id>18</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <verticalAlign>Center</verticalAlign>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаДеталиОтправкаУведомленияВФНС</name>
+    <id>33</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияОтправкаУведомленияВФНСООтступ</name>
+      <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация шаг отправка уведомления ВФНС отступ</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияОтправкаУведомленияВФНСООтступРасширеннаяПодсказка</name>
+        <id>37</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияОтправкаУведомленияВФНСООтступКонтекстноеМеню</name>
+        <id>36</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <width>3</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.РегистрацияОтступЭтапа</picture>
+        </picture>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>СпособыОтправкиУведомления</name>
+      <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #333333>Уведомление можно направить через:&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #333333>    • &lt;/>&lt;/>&lt;/>&lt;/>&lt;link ЛичныйКабинетНалогоплательщика>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #333333>Личный кабинет налогоплательщика&lt;/>&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #333333> &lt;/>&lt;/>&lt;/>&lt;/>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #333333>на сайте ФНС&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #333333>    • &lt;/>&lt;/>&lt;/>&lt;/>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #000000>Уполномоченный&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Arial>&lt;fontsize 10>&lt;bgcolor #ffffff>&lt;color #333333> банк&lt;/>&lt;/>&lt;/>&lt;/></value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СпособыОтправкиУведомленияРасширеннаяПодсказка</name>
+        <id>21</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СпособыОтправкиУведомленияКонтекстноеМеню</name>
+        <id>20</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа детали отправка уведомления ВФНС</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаДеталиОтправкаУведомленияВФНСРасширеннаяПодсказка</name>
+      <id>34</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Right</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <parameters>
+    <name>Организация</name>
+    <valueType>
+      <types>CatalogRef.Организации</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЭтоЮрЛицо</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

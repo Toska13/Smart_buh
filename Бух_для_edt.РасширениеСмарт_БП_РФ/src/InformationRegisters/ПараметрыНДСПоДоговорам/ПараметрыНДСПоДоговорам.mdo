@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="01d6fe6d-8c7e-43fc-b566-7d79e49164c6" extendedConfigurationObject="1b48f317-9b8c-4add-b831-ad0348932704">
+  <producedTypes>
+    <selectionType typeId="eec696cc-e7f6-44c6-951d-30da362ccd9f" valueTypeId="29aca6f1-3f8f-4c98-a8ee-5ae58f8e11e7"/>
+    <listType typeId="087876cf-265b-43ee-ab84-b09aa76c70da" valueTypeId="c47b4d9b-a761-437a-80a8-28848b4624a5"/>
+    <managerType typeId="cc0e68ff-69b1-4962-b3ec-d88914e64673" valueTypeId="6ee8ab6b-0208-4dfe-b2c2-39ff480963e6"/>
+    <recordSetType typeId="fa38c660-406f-4d01-be43-1b926d390f7f" valueTypeId="e7f6ccf4-c17f-4dff-8c1d-620bf6e80b8d"/>
+    <recordKeyType typeId="85ba6cf1-1de4-4f23-ae01-68cb0a4f4e29" valueTypeId="a00bd37f-fc3e-4d59-a618-b574089cdf48"/>
+    <recordType typeId="9ba38f08-06cd-4de9-9ab0-32691583d5d5" valueTypeId="5841debd-0229-4733-9210-6c496754e494"/>
+    <recordManagerType typeId="e48d994c-f0e7-44be-bada-fe34200e3dcc" valueTypeId="880a9382-998e-4ab7-a7d4-a87edf2f4a42"/>
+  </producedTypes>
+  <name>ПараметрыНДСПоДоговорам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

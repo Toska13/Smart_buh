@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d593077-1ce2-4c61-969c-a05afa123de4">
+  <producedTypes>
+    <managerType typeId="70e40cca-eab1-4748-9c53-0584bd3086a0" valueTypeId="e23671c7-f9c4-4125-8023-84717e015f85"/>
+    <valueManagerType typeId="ed6ff5a9-dec8-408a-a3f3-42ecb1cd7ff9" valueTypeId="38a05e62-1c4e-45dc-89dc-e9e69016ec3b"/>
+    <valueKeyType typeId="6d08afc2-2e7b-43ee-9bb3-2f6c9f3416bb" valueTypeId="64ee60f4-45d2-46e0-a729-f6475afa5fa7"/>
+  </producedTypes>
+  <name>ОтображатьИтогиПоНачислениямИВыплатамВСпискеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать итоги по начислениям и выплатам в списке сотрудников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

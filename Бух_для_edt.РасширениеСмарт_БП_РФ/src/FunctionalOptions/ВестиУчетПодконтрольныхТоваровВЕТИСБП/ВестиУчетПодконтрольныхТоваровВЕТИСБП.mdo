@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6450a547-b6ea-4dd3-9b99-59366721c6d1" extendedConfigurationObject="a7ea8951-bd28-4f55-8ced-60697e9f59d7">
+  <name>ВестиУчетПодконтрольныхТоваровВЕТИСБП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ВестиУчетПодконтрольныхТоваровВЕТИС</location>
+</mdclass:FunctionalOption>

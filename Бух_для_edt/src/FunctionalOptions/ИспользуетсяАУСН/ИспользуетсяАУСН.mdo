@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a72d483e-cda4-490f-89cf-af8770b9121b">
+  <name>ИспользуетсяАУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется Автоматизированная УСН</value>
+  </synonym>
+  <location>Constant.ИспользуетсяАУСН</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.БанковскиеОперацииАУСН</content>
+  <content>DataProcessor.ПодключениеАУСН</content>
+  <content>InformationRegister.РасчетНалогаАУСН</content>
+  <content>Enum.СтатусыДокументовАУСН</content>
+  <content>InformationRegister.БанкиАУСН</content>
+  <content>Catalog.УведомленияАУСН</content>
+  <content>InformationRegister.НачисленияАУСН</content>
+  <content>Report.БанковскиеОперацииАУСН.Command.БанковскиеОперацииАУСН</content>
+  <content>InformationRegister.СостоянияИнтеграцииАУСН</content>
+  <content>Catalog.ТипыУведомленийАУСН</content>
+  <content>DataProcessor.ПомощникСверкиРазметкиАУСНСДаннымиФНС</content>
+  <content>InformationRegister.НалоговыеНачисленияАУСН</content>
+  <content>Enum.ПризнакиНалоговойБазыАУСН</content>
+  <content>InformationRegister.БанковскиеДокументыАУСН</content>
+  <content>Enum.СтатусыОповещенийАУСН</content>
+  <content>Catalog.УведомленияАУСНПрисоединенныеФайлы</content>
+  <content>InformationRegister.ДокументыАУСН</content>
+  <content>DataProcessor.ПомощникУплатыНалогаАУСН</content>
+  <content>Enum.ТипыНалоговыхНачисленийАУСН</content>
+  <content>Enum.ТипыДокументовАУСН</content>
+  <content>Enum.СостоянияИнтеграцииАУСН</content>
+  <content>InformationRegister.УполномоченныеБанкиАУСН</content>
+</mdclass:FunctionalOption>

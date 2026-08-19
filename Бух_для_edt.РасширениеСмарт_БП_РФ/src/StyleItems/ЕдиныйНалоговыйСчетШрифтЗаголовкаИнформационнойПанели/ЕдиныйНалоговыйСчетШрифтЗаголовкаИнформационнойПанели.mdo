@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89584dfc-fd12-4387-8c7a-19b5a75a24d6" extendedConfigurationObject="6c2a24fa-8708-4fa7-a7a1-6a0d176af9b6">
+  <name>ЕдиныйНалоговыйСчетШрифтЗаголовкаИнформационнойПанели</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <type>Checked</type>
+  </extension>
+  <type>Font</type>
+</mdclass:StyleItem>

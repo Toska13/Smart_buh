@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54e9f847-4017-4ffd-9771-37f3ab87bda3">
+  <name>ИнформационнаяПанель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационная панель</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнформационнаяПанель</content>
+  <content>CommonForm.ИнформационнаяПанельНастройка</content>
+  <content>CommonForm.ИнформационнаяПанель</content>
+  <content>CommonModule.БлокиИнформационнойПанели</content>
+  <content>StyleItem.ЦветЗаголовкаИнформационнойПанели</content>
+  <content>StyleItem.ШрифтЗаголовкаИнформационнойПанели</content>
+  <content>CommonModule.БлокиИнформационнойПанелиКлиентСервер</content>
+  <content>StyleItem.ШрифтТекстаИнформационнойПанели</content>
+  <content>StyleItem.ЦветТекстаИнформационнойПанели</content>
+  <content>StyleItem.ШрифтОтклоненияИнформационнойПанели</content>
+  <content>StyleItem.ЦветОтрицательногоОтклоненияИнформационнойПанели</content>
+  <content>StyleItem.ЦветПоложительногоОтклоненияИнформационнойПанели</content>
+  <content>StyleItem.ЦветФонаБлоковИнформационнойПанели</content>
+  <content>CommonPicture.КоллекцияПереключателейИнформационнойПанели</content>
+  <content>CommonPicture.КоллекцияСообщенийСервиса</content>
+  <content>StyleItem.ЦветКоличестваНепрочитанныхИнформационнойПанели</content>
+  <parentSubsystem>Subsystem.БухгалтерияПредприятияПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

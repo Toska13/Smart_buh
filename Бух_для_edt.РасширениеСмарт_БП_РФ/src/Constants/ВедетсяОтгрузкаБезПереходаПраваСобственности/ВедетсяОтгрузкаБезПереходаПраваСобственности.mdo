@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ddbc5ffc-e7f7-434f-8839-d296969520a3" extendedConfigurationObject="509f6cd3-6756-408a-851f-291b550ba721">
+  <producedTypes>
+    <managerType typeId="c851148e-b9ab-4ea3-8b1f-af28cecdeac7" valueTypeId="01be1dce-b672-4fc9-aae1-b577c67a0bf6"/>
+    <valueManagerType typeId="a31bc871-c8bf-4c89-a819-c037fdf0523b" valueTypeId="11b5b49b-c991-4c30-8f39-dce09ab34573"/>
+    <valueKeyType typeId="e517accc-2911-4408-9cc3-de0394c311af" valueTypeId="0d643141-eb95-4247-951a-49c74fcb5ed0"/>
+  </producedTypes>
+  <name>ВедетсяОтгрузкаБезПереходаПраваСобственности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

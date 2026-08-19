@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81105f69-6e9a-411a-a884-b24b03458427">
+  <name>РассылкаЗапросовНаСверкуСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка запросов на сверку с контрагентами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РассылкаЗапросовНаСверкуКлиентСервер</content>
+  <content>CommonModule.РассылкаЗапросовНаСверку</content>
+  <content>Catalog.НастройкиРассылкиЗапросовНаСверку</content>
+  <parentSubsystem>Subsystem.БухгалтерияПредприятияПодсистемы.Subsystem.РассылкаСообщений</parentSubsystem>
+</mdclass:Subsystem>

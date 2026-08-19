@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="732d0a6f-bc2a-4607-9369-bcb32f80acbb">
+  <name>СообщенияОблачныхПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения облачных приложений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>HTTPService.КалендарьОтчетности</content>
+  <content>CommonModule.СообщенияОблачныхПриложений</content>
+  <content>Constant.ИдентификаторПриложенияСообщенийОблачныхПриложений</content>
+  <content>CommonModule.СообщенияОтчетностиОблачныхПриложенийПереопределяемый</content>
+  <content>CommonModule.СообщенияОтчетностиОблачныхПриложений</content>
+  <content>CommonModule.ЗапросыREST</content>
+  <content>InformationRegister.ВременноеХранилище</content>
+  <content>Role.ДоступКВнешнемуИнтерфейсуОтчетнойКампанииЗапросы</content>
+  <content>CommonModule.СообщенияОблачныхПриложенийПереопределяемый</content>
+  <parentSubsystem>Subsystem.РегламентированнаяОтчетность.Subsystem.ЗадачиБухгалтера</parentSubsystem>
+</mdclass:Subsystem>

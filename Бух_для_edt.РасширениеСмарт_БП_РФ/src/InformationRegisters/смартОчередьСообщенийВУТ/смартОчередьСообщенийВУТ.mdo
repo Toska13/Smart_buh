@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="606df7be-4424-480d-adbd-6aa5c64c0c36" extendedConfigurationObject="b8873bc3-f01b-4f6d-9403-c99c88179450">
+  <producedTypes>
+    <selectionType typeId="ee8cf5ca-2628-4caa-a10a-6fd2f18a4e6e" valueTypeId="b8dd8fa1-ae9c-4d13-a1cd-6cae96efc50f"/>
+    <listType typeId="e0b9bd47-f1fb-4e48-aedc-e5a76990dcca" valueTypeId="57715e76-60ed-4c8b-a968-b6a4f45b60d6"/>
+    <managerType typeId="5b983930-63b3-491b-b6d7-fb7f3a57bfe8" valueTypeId="cc862854-b623-410a-baa8-32a9750e241e"/>
+    <recordSetType typeId="f5f63b72-af91-42d3-8e98-c619a04c17aa" valueTypeId="e149958a-4996-4bd6-8541-7c7fb1758586"/>
+    <recordKeyType typeId="ecab76bc-afdf-4e7a-b61c-313d9db6b54c" valueTypeId="9622b638-3ea2-4d6e-84d3-b802082eedb0"/>
+    <recordType typeId="a5067fcf-4756-48de-9231-1ab7be03abc8" valueTypeId="acad450c-1288-45cf-8dbe-8ad9fc788c2e"/>
+    <recordManagerType typeId="67659921-2bd7-4ea1-a424-3a00164edf4a" valueTypeId="94f8f9d6-3c4d-4abb-b1e0-ac4555b54b3d"/>
+  </producedTypes>
+  <name>смартОчередьСообщенийВУТ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

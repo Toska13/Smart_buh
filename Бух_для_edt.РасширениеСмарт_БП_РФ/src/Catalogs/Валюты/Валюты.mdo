@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2e26ff0f-dfa6-45e2-add6-6eb21b388f9c" extendedConfigurationObject="225d7842-f8f4-4d0e-9173-7b0c9608e4af">
+  <producedTypes>
+    <objectType typeId="b1e06045-5963-46c9-9edd-69cebe808221" valueTypeId="131cd50e-ae5f-4331-9637-b6844f9d1539"/>
+    <refType typeId="e7d6efce-0809-42d7-a925-f01812b40c81" valueTypeId="32b9d6b4-ad3c-4cdb-a6d0-3b8fd068c06b"/>
+    <selectionType typeId="e6b3b509-bf8c-4a30-8aa2-14b1a7baf251" valueTypeId="0ab42561-e250-4715-9526-c3ad69ad2717"/>
+    <listType typeId="f5d5d5e4-9449-4ab6-8f4c-5300f35257a3" valueTypeId="1d04ccf2-376c-4d5c-812d-9c246cb840d4"/>
+    <managerType typeId="d3bf7cb5-2919-44db-ab9b-28fe7dd2c407" valueTypeId="20a7eecc-84f2-4d8b-9081-3979a95d4668"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

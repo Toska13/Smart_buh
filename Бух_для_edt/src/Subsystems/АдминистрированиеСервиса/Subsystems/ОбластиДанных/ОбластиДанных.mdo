@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5b12318-b73c-44ad-be05-0dc970e4bcd1">
+  <name>ОбластиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области данных</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.РейтингАктивностиОбластейДанных</content>
+  <content>InformationRegister.ОбластиДанных</content>
+  <content>InformationRegister.СостоянияВыгрузкиЗагрузкиОбластейДанных</content>
+  <content>InformationRegister.ПотокиВыгрузкиЗагрузкиДанных</content>
+  <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
+</mdclass:Subsystem>

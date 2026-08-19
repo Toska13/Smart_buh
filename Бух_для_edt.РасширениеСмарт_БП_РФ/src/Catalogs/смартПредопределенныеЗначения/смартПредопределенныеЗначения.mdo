@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a21b5386-4aed-43e8-93a4-6ef14d2a28d8" extendedConfigurationObject="3ba3ff40-ac74-4749-9164-8d3164eb4797">
+  <producedTypes>
+    <objectType typeId="e424d408-184e-4d3f-8525-74ff9f12faac" valueTypeId="20fec646-ba8f-473c-b418-6607cba68284"/>
+    <refType typeId="2f7da534-2d31-4ff0-9875-030b7162b892" valueTypeId="567c6678-2c41-46e7-ae7b-583c61a12180"/>
+    <selectionType typeId="15862246-01bf-452f-91a0-57157ab20327" valueTypeId="46b70c7a-d635-4252-b733-91625f68b7fe"/>
+    <listType typeId="b6d429e6-ac6d-4b86-8838-eee53cc77053" valueTypeId="df05305d-6195-404f-a0c2-37821263d24e"/>
+    <managerType typeId="2416a131-ea20-4f71-a290-75c89ea1bd91" valueTypeId="ef7ee4be-47ec-4362-9edb-c090aa76f12c"/>
+  </producedTypes>
+  <name>смартПредопределенныеЗначения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

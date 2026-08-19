@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c39350e0-949e-4129-970f-e8f07525fd9a">
+  <producedTypes>
+    <managerType typeId="424cd38e-2356-4a36-8b47-fbf07b565f7c" valueTypeId="09bce1a1-f582-4d78-b726-b2d2f633a630"/>
+    <valueManagerType typeId="b7a23c6b-34bb-4d08-9495-b726d39a6445" valueTypeId="105c91de-4d95-43f8-8279-8a364d626012"/>
+    <valueKeyType typeId="678ee99a-9e2d-421f-9510-f30ae97b1871" valueTypeId="31cbf293-66b8-4c85-a0db-ac0828dc334a"/>
+  </producedTypes>
+  <name>ЗапланированаРассылкаPushУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запланирована рассылка push уведомлений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32db7d4b-51bb-474e-897c-9f7f66a82563">
+  <producedTypes>
+    <selectionType typeId="d9cb6e35-3443-4ee4-80fb-5dd74cbad502" valueTypeId="d12b38fd-e9aa-4a55-86e6-55e62afe5448"/>
+    <listType typeId="85f3dae5-cde8-45df-a46c-0d6eea3a1861" valueTypeId="ed390a16-b15c-44b5-a56b-0eab503448f8"/>
+    <managerType typeId="23caacca-ed27-4c3b-b78f-5aaa564361a1" valueTypeId="fa7ae0fd-d1a5-4608-8de7-4d26accce6ee"/>
+    <recordSetType typeId="f6ea11c1-2fc9-465b-ae15-7cc1d022006c" valueTypeId="68a13e3f-1d91-436c-8be7-98640c2e5383"/>
+    <recordKeyType typeId="cdf6e763-34fa-4666-b28b-4875662e20a0" valueTypeId="07c64b6c-8e0e-4473-804f-f4164792624c"/>
+    <recordType typeId="ac5eb0a6-b3d5-47e9-8d0e-0cf2664f39ae" valueTypeId="f3c27d21-0ebc-48ec-8f5c-67a9ff6006fe"/>
+    <recordManagerType typeId="ce55c443-0c71-4910-a65e-9747801cd1cd" valueTypeId="78acfe0b-4535-405f-9eb3-44ec064f5d6f"/>
+  </producedTypes>
+  <name>СоответствиеНастроекИнтеграцииИнтернетЭквайринг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие настроек интеграции интернет эквайринга </value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c12a947e-b407-4d7e-a8b3-3ff23ea474f4">
+    <name>НастройкаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка подключения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиПодключенияКИнтернетЭквайрингу</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a3ee3a08-d3a2-4732-a9e4-916fac04e4e3">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="527680f6-61e3-4d28-afc6-4094c6442972">
+    <name>ВидОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОплатОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>InformationRegister.СоответствиеНастроекИнтеграцииИнтернетЭквайринг.Dimension.Организация</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

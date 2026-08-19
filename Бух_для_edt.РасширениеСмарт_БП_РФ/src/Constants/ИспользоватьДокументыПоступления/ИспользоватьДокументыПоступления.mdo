@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="abfa8d3a-e691-49fa-8ad7-547eab780dfc" extendedConfigurationObject="18a91428-b5d6-428f-b928-914cc5f282b8">
+  <producedTypes>
+    <managerType typeId="c5a1c889-09f5-4876-ad67-578e12778b70" valueTypeId="91fa013a-2b73-4fdd-a7dd-2c8bbca037b7"/>
+    <valueManagerType typeId="5e0bab09-6447-4aa0-a1c1-675c45293336" valueTypeId="394c9127-583c-4f68-88db-bd478d98e88c"/>
+    <valueKeyType typeId="b0640a63-a4ad-4e63-b848-b67945850527" valueTypeId="890b8450-f14f-43f6-88cb-d25e9e9ba92c"/>
+  </producedTypes>
+  <name>ИспользоватьДокументыПоступления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

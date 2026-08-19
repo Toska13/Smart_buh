@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27ab220-b226-4718-a1e4-adc50efd098e">
+  <producedTypes>
+    <objectType typeId="dbf83e9b-ece1-4898-8cb1-b7168a898dc8" valueTypeId="018eb164-c126-44ed-93a8-d521ca8dea01"/>
+    <managerType typeId="13d0f41c-a3ba-46d1-be1e-7902e096fcc6" valueTypeId="f03e51c8-465c-4cec-9245-44bcaa54acd9"/>
+  </producedTypes>
+  <name>ПодготовкаКВычетуНДСУчтенногоВСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовка к вычету НДС, учтенного в стоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодготовкаКВычетуНДСУчтенногоВСтоимости.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="2df3ded0-4153-4f19-ae3c-91f78733607f">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13ec6a4f-efd4-4c4d-ac4d-3d2bb2e3e7bd">
+    <name>ФормаДозаполненияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дозаполнения данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a4823f45-b59d-43fb-9876-74ef5609658c">
+    <name>ФормаГрупповогоЗаполненияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группового заполнения данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5dda611d-5ec3-41fa-9a8b-20502ee0a333">
+    <name>ДокументыВводНачальныхОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы ввода остатков для подготовки к вычету НДС, учтенного в стоимости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c07a17b8-1a1c-47f1-b481-d67c74e660b1">
+    <name>СписокСчетовПоискаОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список счетов поиска остатков</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e101e9c5-a52f-4a0e-ba50-78fde33fc08b">
+    <name>ФормаИзмененияПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения периода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="708c68fe-ada3-494d-ae57-d2984ddfc546">
+    <name>МакетСчетаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет счета поиска</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f0f2a1a-8a5e-4102-86c5-50db4f7fc041">
+  <name>смартЧтениеРСПараметрыНДСПоДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смарт Чтение регистра параметры НДС по договорам</value>
+  </synonym>
+  <comment>Дополнительный для проведения реализаций</comment>
+</mdclass:Role>

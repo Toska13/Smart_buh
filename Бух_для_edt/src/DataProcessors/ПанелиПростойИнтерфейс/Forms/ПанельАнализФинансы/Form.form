@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОбщиеПоказатели</name>
+    <id>25</id>
+    <items xsi:type="form:Button">
+      <name>ОтчетАнализФинансовыхРезультатовКомандаАнализФинансовыхРезультатов</name>
+      <id>1</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетАнализФинансовыхРезультатовКомандаАнализФинансовыхРезультатовРасширеннаяПодсказка</name>
+        <id>2</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.АнализФинансовыхРезультатов.Command.АнализФинансовыхРезультатов</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОтчетДоходыРасходыКомандаДоходыРасходы</name>
+      <id>17</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетДоходыРасходыКомандаДоходыРасходыРасширеннаяПодсказка</name>
+        <id>18</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.ДоходыРасходы.Command.ДоходыРасходы</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОтчетОборотныеСредстваКомандаОборотныеСредства</name>
+      <id>19</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетОборотныеСредстваКомандаОборотныеСредстваРасширеннаяПодсказка</name>
+        <id>20</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.ОборотныеСредства.Command.ОборотныеСредства</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОбщаяКомандаПлатежныйКалендарь</name>
+      <id>23</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОбщаяКомандаПлатежныйКалендарьРасширеннаяПодсказка</name>
+        <id>24</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>CommonCommand.ПлатежныйКалендарь</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОтчетРасчетыСПокупателямиИПоставщикамиКомандаРасчетыСПокупателямиИПоставщиками</name>
+      <id>21</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетРасчетыСПокупателямиИПоставщикамиКомандаРасчетыСПокупателямиИПоставщикамиРасширеннаяПодсказка</name>
+        <id>22</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.РасчетыСПокупателямиИПоставщиками.Command.РасчетыСПокупателямиИПоставщиками</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОбщаяКомандаФинансовыйАнализ</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОбщаяКомандаФинансовыйАнализРасширеннаяПодсказка</name>
+        <id>4</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>CommonCommand.ФинансовыйАнализ</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОбщаяКомандаФинансыОрганизации</name>
+      <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОбщаяКомандаФинансыОрганизацииРасширеннаяПодсказка</name>
+        <id>6</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>CommonCommand.ФинансыОрганизации</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Общие показатели</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаОбщиеПоказателиРасширеннаяПодсказка</name>
+      <id>26</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>NormalSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаДенежныеСредства</name>
+    <id>27</id>
+    <items xsi:type="form:Button">
+      <name>ОтчетАнализДвиженийДенежныхСредствКомандаАнализДвиженийДенежныхСредств</name>
+      <id>9</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетАнализДвиженийДенежныхСредствКомандаАнализДвиженийДенежныхСредствРасширеннаяПодсказка</name>
+        <id>10</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.АнализДвиженийДенежныхСредств.Command.АнализДвиженийДенежныхСредств</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОтчетОстаткиДенежныхСредствКомандаОстаткиДенежныхСредств</name>
+      <id>11</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетОстаткиДенежныхСредствКомандаОстаткиДенежныхСредствРасширеннаяПодсказка</name>
+        <id>12</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.ОстаткиДенежныхСредств.Command.ОстаткиДенежныхСредств</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОтчетПоступленияДенежныхСредствКомандаПоступленияДенежныхСредств</name>
+      <id>13</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетПоступленияДенежныхСредствКомандаПоступленияДенежныхСредствРасширеннаяПодсказка</name>
+        <id>14</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.ПоступленияДенежныхСредств.Command.ПоступленияДенежныхСредств</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОтчетРасходыДенежныхСредствКомандаРасходыДенежныхСредств</name>
+      <id>15</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтчетРасходыДенежныхСредствКомандаРасходыДенежныхСредствРасширеннаяПодсказка</name>
+        <id>16</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Report.РасходыДенежныхСредств.Command.РасходыДенежныхСредств</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ЦветГиперссылки</color>
+      </textColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <shapeRepresentation>None</shapeRepresentation>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Денежные средства</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаДенежныеСредстваРасширеннаяПодсказка</name>
+      <id>28</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>NormalSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

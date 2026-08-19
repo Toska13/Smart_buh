@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4e5499d8-9490-444a-a857-3cf20567825f" extendedConfigurationObject="52e03011-6930-48ee-8a26-29012583459c">
+  <name>ВедетсяОтгрузкаБезПереходаПраваСобственности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ВедетсяОтгрузкаБезПереходаПраваСобственности</location>
+</mdclass:FunctionalOption>

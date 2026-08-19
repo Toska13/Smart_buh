@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f53485f4-3ab9-4cc8-b68d-827ad5be54f2">
+  <producedTypes>
+    <refType typeId="52dc115d-d974-4915-bd43-8acd9e4d942d" valueTypeId="5248c4d1-7828-47f4-9e11-a4d987bed435"/>
+    <listType typeId="d442b2d0-a270-4356-8401-ccbb6b94a717" valueTypeId="62be0d1d-1da1-4f48-b107-fc591763ad65"/>
+    <managerType typeId="b5f20dd5-752b-45e3-b6dc-1309834c822d" valueTypeId="496688e7-8ed5-4c87-8052-00ddb54c9652"/>
+  </producedTypes>
+  <name>смартСпособыУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы уведомлений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bb6fb462-9517-4423-9a56-7fb9260e7399">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fecf7df-b442-4125-a312-36fa84ea6b2f">
+    <name>Телеграмм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телеграмм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3cd69e71-8764-488a-a16a-fe9a35fcc2b1">
+    <name>ЗадачаУТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача УТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef3bc524-c74b-4912-8e02-839d7dbd119a">
+    <name>НапоминаниеУТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминание УТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0b1006e-5701-4900-82e2-f8595b75777c">
+    <name>ЛичноеСообщениеБ24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Б24. Личное сообщение</value>
+    </synonym>
+    <comment>#5480 смарт: Тимофеева 28.01.26 / Рассылка уведомлений. Доработать систему для отправки уведомлений в Битрикс24</comment>
+  </enumValues>
+</mdclass:Enum>

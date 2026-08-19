@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a4fb3bd-8580-4524-a04c-14761d78f32b">
+  <name>ИспользоватьСервис1ССДЭКБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис 1С:СДЭК</value>
+  </synonym>
+  <location>Constant.ИспользоватьСервис1ССДЭК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ЗаказНаДоставкуСДЭК</content>
+  <content>DataProcessor.СервисДоставки.Command.СписокЗаказов1ССДЭК</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70e7ada2-c3c4-4ed3-b1ad-720dbbbcb910">
+  <name>Смарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смарт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.смартОтправленыВУТ</content>
+  <content>Catalog.смартПредопределенныеЗначения</content>
+  <content>InformationRegister.смартСформированныеПакетыПФ</content>
+  <content>Catalog.смартОснованияПодписиАвансовыхОтчетов</content>
+  <content>ExchangePlan.смартМаркировка</content>
+  <content>InformationRegister.смартОчередьСообщенийВУТ</content>
+  <content>Catalog.смартПравилаОбменаДанными</content>
+  <content>InformationRegister.смартНоменклатураКонтрагентовБЭД</content>
+</mdclass:Subsystem>

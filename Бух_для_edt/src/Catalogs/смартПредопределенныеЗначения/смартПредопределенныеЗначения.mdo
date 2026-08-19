@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ba3ff40-ac74-4749-9164-8d3164eb4797">
+  <producedTypes>
+    <objectType typeId="95c365a4-0b1b-4b6e-88f1-bf34cb958bdf" valueTypeId="68e4463f-daed-4e12-a2b6-08ab0cf44ed3"/>
+    <refType typeId="5b58bab0-65fa-49be-86d1-062bcea9e1fd" valueTypeId="5b9906bd-4cfa-4b90-a23f-1ea4f5de94c4"/>
+    <selectionType typeId="6b884575-e4fa-491d-8ac1-1c9ef56aef59" valueTypeId="6ece0f9d-8907-4493-b8c4-0f0f55d82625"/>
+    <listType typeId="b3870a27-b845-4438-be68-fe953643517b" valueTypeId="cfb19d86-5b5e-4b0e-b532-0903762c8252"/>
+    <managerType typeId="6fbccba4-eea9-4926-9963-0eaccfdb43fa" valueTypeId="9d5def82-f82b-416c-8b43-1f3311eba4c3"/>
+  </producedTypes>
+  <name>смартПредопределенныеЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные значения (смарт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.смартПредопределенныеЗначения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.смартПредопределенныеЗначения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Предопределенное значение</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Справочник предназначен для хранения ссылок на неопредопределенные элементы, к которым необходимо обращаться в коде</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e279d483-4e51-4213-84e0-4f5364118a9d">
+      <name>ПодключенияHTTP</name>
+      <description>Подключения HTTP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="521bd3d1-bcbd-4f29-afe7-d08f459feca6">
+        <name>БазаУТ</name>
+        <description>База УТ</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+      <content id="e5864ce6-f4ad-4550-9d26-26342e604b85">
+        <name>СерверУТ</name>
+        <description>Сервер УТ</description>
+        <code xsi:type="core:StringValue">
+          <value>000000002</value>
+        </code>
+      </content>
+    </items>
+    <items id="143f448d-19b1-4098-9623-e697cdf3f172">
+      <name>АдресДляОтправкиПакетаНаСкладАдмирал</name>
+      <description>Адрес для отправки пакета на склад Адмирал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="460d0d8f-33f4-492d-bb71-52fd292f044c">
+      <name>АтлантFTPАдрес</name>
+      <description>Атлант FTPАдрес</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="7a2ceb90-ca92-4bb9-81ec-81e6ed310686">
+      <name>АтлантFTPЛогин</name>
+      <description>Атлант FTPЛогин</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="1a88bcd2-8367-4efe-87b8-669a1e320bab">
+      <name>АтлантFTPПароль</name>
+      <description>Атлант FTPПароль</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="50d28ce6-01c7-4c53-829f-ca75d06972d3">
+      <name>ДатаНачалаКонтроляОтгрузкиМаркированнойПродукции</name>
+      <description>Дата начала контроля отгрузки маркированной продукции</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="c0373297-30f7-444e-95dd-4b0e87fc8cbe">
+      <name>ДатаНачалаОбменаДокументамиСУТЧерезУниверсальныйФормат</name>
+      <description>Дата начала обмена документами с УТ через универсальный формат</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="0e66a8e1-a1d0-4acb-8e44-8e2aa7946cb7">
+      <name>КаталогСкладаАдмирал</name>
+      <description>Каталог склада Адмирал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="bc3b40a0-1019-4db2-9df7-f336d99c475c">
+      <name>КоличествоПопытокОтправкиУведомлений</name>
+      <description>Количество попыток отправки уведомлений</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="4b1da0d7-bff6-48f5-bf5f-986bc13e2b67">
+      <name>ПапкаФайловВложенийУведомлений</name>
+      <description>Папка файлов вложений уведомлений</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="fdb85494-2636-49f1-8b81-fc356bd4d1ac">
+      <name>ПодразделениеСинхронизации</name>
+      <description>Подразделение синхронизации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="14307dca-823d-4cb7-a8a1-10636f9fe9ea">
+      <name>РабочаяБазаБП</name>
+      <description>Рабочая база БП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="66212de4-94e6-46b4-9e29-b0973a685466">
+      <name>РабочийСервер</name>
+      <description>Рабочий сервер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="d94f8f81-4078-4934-a1d5-cafc8424bee8">
+      <name>СкладАдмирал</name>
+      <description>Склад Адмирал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="036bb8c4-d2d9-43fb-ab47-807af8b11bc9">
+      <name>СкладОсновной</name>
+      <description>Склад основной</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="691cfb8c-c41a-4a49-a4c1-9c8ebf429236">
+      <name>СкладыСписанияТоваров</name>
+      <description>Склады списания товаров</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="0084dde0-09dd-4e5c-8e4b-cdeeeeabaa54">
+      <name>СтатьяЗатратПоГарантийнымЗапчастям</name>
+      <description>Статья затрат по гарантийным запчастям</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.смартПредопределенныеЗначения.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5e34722b-2b12-4ebe-bcae-c560d2e70ae2">
+    <name>СписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список значений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5ededf8-1497-42e0-9fe8-a5e60ebd0c73">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>BusinessProcessRef</types>
+      <types>DocumentRef</types>
+      <types>TaskRef</types>
+      <types>ChartOfCharacteristicTypesRef</types>
+      <types>CatalogRef</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48357295-836b-409c-8b64-561b7cafb5d8">
+    <name>ИспользоватьТЧСписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ТЧСписок значений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="268c763c-bc1c-4f4d-ab92-007a6379e276">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1346a8da-a75c-4746-ab23-5d7efe6b76cd">
+    <producedTypes>
+      <objectType typeId="41a48731-36ce-4923-8edb-3274873a93da" valueTypeId="17b068b3-e6ac-42e0-b0f2-270cba830324"/>
+      <rowType typeId="589fa34f-0e3b-4332-8743-818bbc9bd08a" valueTypeId="7075ede0-8b19-4b64-a066-683a834f1bc0"/>
+    </producedTypes>
+    <name>Значения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6dae6ca4-5f01-4803-aedf-c842f287c8ca">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>BusinessProcessRef</types>
+        <types>DocumentRef</types>
+        <types>TaskRef</types>
+        <types>ChartOfCharacteristicTypesRef</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6127a41b-4f99-412a-b7d9-56cf314fd1c8">
+    <producedTypes>
+      <objectType typeId="df6b8a45-219b-4e77-8e2a-7f002b471981" valueTypeId="f6be67fe-9174-4363-9e69-6cab7c348672"/>
+      <rowType typeId="80fe941d-7dcf-42e4-979b-0222e4608b72" valueTypeId="b24f1742-78e2-4fee-835a-2043e2943bd2"/>
+    </producedTypes>
+    <name>ТЧСписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧСписок значений</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="be2186cc-4316-4632-912a-3a790ee3c62d">
+      <name>к1</name>
+      <synonym>
+        <key>ru</key>
+        <value>К1</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>BusinessProcessRef</types>
+        <types>DocumentRef</types>
+        <types>TaskRef</types>
+        <types>ChartOfCharacteristicTypesRef</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1f9f5505-fc4e-44c7-b4d8-46e16c47cec8">
+      <name>к2</name>
+      <synonym>
+        <key>ru</key>
+        <value>К2</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>BusinessProcessRef</types>
+        <types>DocumentRef</types>
+        <types>TaskRef</types>
+        <types>ChartOfCharacteristicTypesRef</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0131f524-ed60-49b9-9cbd-88dc46b80b18">
+      <name>к3</name>
+      <synonym>
+        <key>ru</key>
+        <value>К3</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>BusinessProcessRef</types>
+        <types>DocumentRef</types>
+        <types>TaskRef</types>
+        <types>ChartOfCharacteristicTypesRef</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="09087676-e519-4ba6-af27-568500cc50c3">
+      <name>к4</name>
+      <synonym>
+        <key>ru</key>
+        <value>К4</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>BusinessProcessRef</types>
+        <types>DocumentRef</types>
+        <types>TaskRef</types>
+        <types>ChartOfCharacteristicTypesRef</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e2d103f4-af84-4b6a-80ba-5da29758fa65">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f5c99ec-ee97-45f9-9620-bb89073f1753">
+  <name>смартИзменениеДокументПодписан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смарт Изменение документ подписан</value>
+  </synonym>
+  <comment>Роль для изменения галочки &quot;Документ подписан&quot; в реализациях</comment>
+</mdclass:Role>

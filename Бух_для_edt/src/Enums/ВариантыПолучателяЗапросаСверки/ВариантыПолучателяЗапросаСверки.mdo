@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04c4f866-260b-4dbf-8db0-b7e394dd9da4">
+  <producedTypes>
+    <refType typeId="f2f88e30-378a-4a9d-a741-131aebac9943" valueTypeId="0f535154-9d44-46a2-a92d-c62e50c5da52"/>
+    <listType typeId="5ba38a24-4862-4967-b718-f0d400d0bd5c" valueTypeId="b62b6f58-85c3-48ad-940e-7c690049738c"/>
+    <managerType typeId="512c1e0d-b1a0-480d-a94a-34b1abdd5eaa" valueTypeId="361b3343-b6b8-415a-a768-fca64798ac4e"/>
+  </producedTypes>
+  <name>ВариантыПолучателяЗапросаСверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты получателя запроса сверки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64131506-3dfe-409d-9426-f6b6fcedabc7">
+    <name>КонтактноеЛицоСРолью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо с ролью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3700d836-f7a3-4b80-a69d-a666e534fe55">
+    <name>ОсновнойEmail</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной e-mail</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="add52bca-b6d9-4e79-a8b9-4ad3fd70de64">
+  <name>ПФ_MXL_СчетФактура26Прослеж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет-фактура по Постановлению № 1137 (в редакции постановления № 26 от 23.01.2026) (прослеж.)</value>
+  </synonym>
+</mdclass:CommonTemplate>

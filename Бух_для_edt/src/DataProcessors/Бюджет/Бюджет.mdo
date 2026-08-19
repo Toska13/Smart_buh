@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c74440b-ec04-4261-a449-1375aa485c2e">
+  <producedTypes>
+    <objectType typeId="1a22a8b7-af79-4c31-a73c-25ca2f228e9e" valueTypeId="cd8707f4-8c13-40a1-b55b-903718def001"/>
+    <managerType typeId="a30f1a63-4126-4cd4-849c-cf5c6be494bf" valueTypeId="6d7336ae-4fd7-44f2-afd3-0971e8b9369b"/>
+  </producedTypes>
+  <name>Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет денежных средств</value>
+  </synonym>
+  <defaultForm>DataProcessor.Бюджет.Form.Форма</defaultForm>
+  <attributes uuid="79aa9f10-f57d-4bf6-9cc4-f4e4b5869c02">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e887bb13-e1e7-4a65-8115-6988b20916c1">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f1b69be2-cb55-4d24-a5ea-02db62335149">
+    <name>Утвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджет утвержден</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2042f38f-9c92-4222-9ed6-1c9d0c06d38e">
+    <name>Детализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="35c07e94-2dba-433e-a4e8-3e65de59657e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="38bb0665-a51a-4bbb-ad47-9e0df56ebe61">
+    <name>ОстатокНаНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток на начало</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="cd7e45a9-f2d5-4020-9b92-1320ed408aa3">
+    <producedTypes>
+      <objectType typeId="50e3515e-2984-47c3-bc68-c1207bf24343" valueTypeId="f5b92ad3-bb0a-450d-902c-f91423d48ae9"/>
+      <rowType typeId="75f4197e-fafd-46dc-bb1d-0c820260d71b" valueTypeId="45b0df9c-a833-4317-9ea8-9313407bded6"/>
+    </producedTypes>
+    <name>Доходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3070c584-5111-4314-a39e-6be51c4fa59f">
+      <name>ДатаПланирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата планирования</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="806a3f36-8142-4ea6-9753-52872d85948d">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bffdf0dd-42ff-4e4f-9f21-b53cff67bdaa">
+      <name>СтатьяДохода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья дохода</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8cb58b67-4218-4fab-bba9-e3e6c9d9cd17">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5298594f-6d9a-4b0e-b529-bfe90e44e14f">
+      <name>ЭтоГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это группа</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7de1ea4c-2c22-4e8e-bf30-5cb0c00bf210">
+    <producedTypes>
+      <objectType typeId="e26c5773-8ad0-48fc-b88a-e17a57a97ea7" valueTypeId="60094af6-474a-455c-ac72-822649397f13"/>
+      <rowType typeId="9f2232cd-0377-44e2-9e04-a1d07649cf57" valueTypeId="8da1da86-3d23-4344-b79d-95d37dd40a8c"/>
+    </producedTypes>
+    <name>Расходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9b47524c-2cdb-4669-a606-6fd301e8396f">
+      <name>ДатаПланирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата планирования</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bb47b8e7-fd56-4656-8572-70ca5646f370">
+      <name>НаправлениеДеятельности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Направление деятельности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаправленияДеятельности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="efcc532f-e8c7-42ba-9216-f6e9cd8f8ed4">
+      <name>СтатьяРасхода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расхода</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ca5ec6c7-c710-4c44-a657-6e83e500264d">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="261f62a1-67d4-494f-8ecf-6b763ccf1991">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4901680d-4aac-422f-b433-546e40d24a4d">
+      <name>ЭтоГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это группа</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f5fb86f2-1a3d-422e-a492-bcc7f081f9b9">
+    <producedTypes>
+      <objectType typeId="de641995-0ea3-409e-bd80-6e785d9dc14c" valueTypeId="b2712f43-1f2b-4b2a-90f9-849fa28a4de2"/>
+      <rowType typeId="daad0376-5dd1-45a4-8647-881ac0727c12" valueTypeId="2cf627de-1672-4e73-9cef-c76d5d9ac5cf"/>
+    </producedTypes>
+    <name>РасходыПоНаправлениямДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы по направлениям деятельности</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="03e0bb64-97a7-494d-89bc-55b2bbd99c9a">
+      <name>ДатаПланирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата планирования</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0a413c58-8a45-4ceb-83c4-b14a92989fa1">
+      <name>НаправлениеДеятельности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Направление деятельности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаправленияДеятельности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1314c771-1fad-41c3-80ef-ec1f7e55f2f8">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4e04e06f-f31d-4daa-ab3f-30ab61a0e174">
+    <producedTypes>
+      <objectType typeId="97b4f1d6-2a44-4e94-a63a-12d812b50776" valueTypeId="de4363e8-ba8e-4c7a-a0d1-5ce55658d484"/>
+      <rowType typeId="29e7aebd-13be-4fad-992d-002e9a739494" valueTypeId="18d079cf-f03a-4c6e-b3ba-2ade4cd9b5f2"/>
+    </producedTypes>
+    <name>СтруктураРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура расходов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a095f240-30f9-4ad5-97ed-058fb28c84be">
+      <name>НаправлениеДеятельности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Направление деятельности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаправленияДеятельности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="73ad40bf-3c48-42a0-96e6-0c7ecc5824f5">
+      <name>СтатьяРасхода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расхода</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2e7dddcf-c84d-4d96-a121-680dfafb2c5e">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="23931371-9959-40a8-acc8-ed5517c06917">
+      <name>ЭтоГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это группа</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9e3587d5-5883-4416-9649-1da8675d970a">
+    <producedTypes>
+      <objectType typeId="bd522b35-2c9b-4a6c-ac55-51e91bb0d768" valueTypeId="64af29a4-99d4-419b-931c-b8454b26e9ac"/>
+      <rowType typeId="05a19102-d8c4-40bd-b036-6ec558d1292a" valueTypeId="49b072e2-61d4-4a74-b9a2-11d89f8043b4"/>
+    </producedTypes>
+    <name>СтруктураДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура доходов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e0e2b0ed-185d-4020-82f3-546616c8fc2f">
+      <name>СтатьяДохода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья дохода</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cf214e5b-e836-43f8-9d6d-3cc74729ab0c">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1adcb788-69ca-4825-8010-f8d9b9794a52">
+      <name>ЭтоГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это группа</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5e0d7016-1276-4571-a52d-72843ff1b548">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="84b7882a-bb07-4624-9243-35e24b23aee9">
+    <name>ВыгрузкаВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка в файл</value>
+    </synonym>
+  </templates>
+  <commands uuid="54bcb453-fe37-4c1e-9083-2adf8e3c9fc8">
+    <name>Бюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджет денежных средств</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

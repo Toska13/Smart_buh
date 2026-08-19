@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3dfe02c-4eef-41bf-99c3-3e9b9688f47a">
+  <producedTypes>
+    <refType typeId="cf5d0fbd-c7cb-4a55-adcf-eb8f3224160e" valueTypeId="7b9afb1f-c32a-4c6a-a72c-40a3319c60c0"/>
+    <listType typeId="9bb5201e-c667-4e0e-ac5c-106ad5f77e9e" valueTypeId="19818377-a2db-4522-ba99-fd4fa1b926be"/>
+    <managerType typeId="42a92808-e6f2-4016-9f99-ceeb5208011a" valueTypeId="c57c2e66-4769-48ce-ab32-8a7d048cc1ba"/>
+  </producedTypes>
+  <name>СпособыЗапросаСверкиЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы запроса сверки по ЭДО</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="df1fc966-14a8-481f-af16-0626af43426a">
+    <name>ОтправитьАктСверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить акт сверки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1db3d60f-155b-413b-8028-2aeeb00d0059">
+    <name>ОтправитьПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить письмо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35293b7a-f140-475c-a53e-217e2b8376af">
+    <name>НеОтправлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлять</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

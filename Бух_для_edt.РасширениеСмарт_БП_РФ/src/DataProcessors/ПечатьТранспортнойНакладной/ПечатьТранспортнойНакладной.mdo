@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fc866050-d9c3-4282-b671-a0d8a1587488" extendedConfigurationObject="63c0b559-d65b-45c8-a78b-cbfe85709014">
+  <producedTypes>
+    <objectType typeId="93fb8541-53d5-44df-bfc1-6b519abe8658" valueTypeId="f5bf835f-cbb3-4914-9ce1-c5a3c8663f2e"/>
+    <managerType typeId="55489f18-577d-4282-9842-fb79b6950263" valueTypeId="e1d30904-f694-4ca9-b0f4-367b4ccaf98a"/>
+  </producedTypes>
+  <name>ПечатьТранспортнойНакладной</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

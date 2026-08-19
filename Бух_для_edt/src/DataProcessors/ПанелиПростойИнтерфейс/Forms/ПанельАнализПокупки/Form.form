@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Button">
+    <name>ОтчетДинамикаЗадолженностиПоставщикамКомандаДинамикаЗадолженностиПоставщикам</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ОтчетДинамикаЗадолженностиПоставщикамКомандаДинамикаЗадолженностиПоставщикамРасширеннаяПодсказка</name>
+      <id>2</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Report.ДинамикаЗадолженностиПоставщикам.Command.ДинамикаЗадолженностиПоставщикам</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.ЦветГиперссылки</color>
+    </textColor>
+    <representationInContextMenu>Auto</representationInContextMenu>
+    <shapeRepresentation>None</shapeRepresentation>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ОтчетЗадолженностьПоставщикамКомандаЗадолженностьПоставщикам</name>
+    <id>3</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ОтчетЗадолженностьПоставщикамКомандаЗадолженностьПоставщикамРасширеннаяПодсказка</name>
+      <id>4</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Report.ЗадолженностьПоставщикам.Command.ЗадолженностьПоставщикам</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.ЦветГиперссылки</color>
+    </textColor>
+    <representationInContextMenu>Auto</representationInContextMenu>
+    <shapeRepresentation>None</shapeRepresentation>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ОтчетЗадолженностьПоставщикамКомандаЗадолженностьПоставщикамПоДоговорам</name>
+    <id>5</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ОтчетЗадолженностьПоставщикамКомандаЗадолженностьПоставщикамПоДоговорамРасширеннаяПодсказка</name>
+      <id>6</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Report.ЗадолженностьПоставщикам.Command.ЗадолженностьПоставщикамПоДоговорам</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.ЦветГиперссылки</color>
+    </textColor>
+    <representationInContextMenu>Auto</representationInContextMenu>
+    <shapeRepresentation>None</shapeRepresentation>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ОтчетЗадолженностьПоставщикамПоСрокамДолгаКомандаЗадолженностьПоставщикамПоСрокамДолга</name>
+    <id>7</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ОтчетЗадолженностьПоставщикамПоСрокамДолгаКомандаЗадолженностьПоставщикамПоСрокамДолгаРасширеннаяПодсказка</name>
+      <id>8</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Report.ЗадолженностьПоставщикамПоСрокамДолга.Command.ЗадолженностьПоставщикамПоСрокамДолга</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.ЦветГиперссылки</color>
+    </textColor>
+    <representationInContextMenu>Auto</representationInContextMenu>
+    <shapeRepresentation>None</shapeRepresentation>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ОтчетАнализНеоплаченныхСчетовПоставщиковКомандаНеоплаченныеСчетаПоставщиков</name>
+    <id>9</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ОтчетАнализНеоплаченныхСчетовПоставщиковКомандаНеоплаченныеСчетаПоставщиковРасширеннаяПодсказка</name>
+      <id>10</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Report.АнализНеоплаченныхСчетовПоставщиков.Command.НеоплаченныеСчетаПоставщиков</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.ЦветГиперссылки</color>
+    </textColor>
+    <representationInContextMenu>Auto</representationInContextMenu>
+    <shapeRepresentation>None</shapeRepresentation>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69b36058-b102-44bb-b4a2-489b36e9aaaa">
+  <producedTypes>
+    <managerType typeId="70b504ec-aa84-41e1-bbf8-f13c4bb88d5a" valueTypeId="cdcde191-c238-4bd5-82ef-2ccc61a4a934"/>
+    <valueManagerType typeId="5524d920-09b3-46e4-87a2-dbe83a192b5e" valueTypeId="9bfb2283-bc8e-438d-a106-78d77639fce4"/>
+    <valueKeyType typeId="542ebcee-b2c0-4ce3-b9da-002e965e3881" valueTypeId="f08a1cf6-d53e-4ec8-9b0f-6296c6c9ccb9"/>
+  </producedTypes>
+  <name>ИспользоватьУпаковкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать упаковки номенклатуры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1505da67-c66e-409d-a310-994d0f007f25" thisNode="29668dab-6f59-485e-9677-911909884ce3">
+  <producedTypes>
+    <objectType typeId="d5ab42d6-eb27-45dd-8f63-00b2e262871f" valueTypeId="8e07e82e-df62-423a-9d67-8f8e27ed2e37"/>
+    <refType typeId="7713d585-4d74-4679-b245-120ac0cd98e5" valueTypeId="ca351ee8-55fb-4704-9f31-3de7380c01d8"/>
+    <selectionType typeId="0b463f96-fc22-437f-9dce-8b49d15372a3" valueTypeId="381cb19e-4956-4eda-baf4-f9807e3ba20a"/>
+    <listType typeId="197261f1-393a-4d7c-b7ba-c1f2ab836e87" valueTypeId="4955945e-389c-49e8-900b-86396c094d70"/>
+    <managerType typeId="cfaab6df-39c2-4e40-8742-97eff6283907" valueTypeId="377a3a5d-7bb3-4d3d-8d0a-bccbd771192c"/>
+  </producedTypes>
+  <name>смартМаркировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировка (смарт)</value>
+  </synonym>
+  <comment>//++ #Б5136 смарт: Шляпников 27.01.2026 / Маркировка радиоэлектронной продукции. Синхронизация данных. Приемка товара.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.смартМаркировка.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.смартМаркировка.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.ПулКодовМаркировкиСУЗ</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ШтрихкодыНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ШтрихкодыУпаковокТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.смартМаркировка.Form.ФормаУзла</defaultObjectForm>
+  <forms uuid="2c812ec1-3ebc-49c1-ae15-0889a137e064">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

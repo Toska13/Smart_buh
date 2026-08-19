@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="482b0863-8ece-4c95-b465-ab6a9602b296">
+  <name>Налоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.Интерфейс77СправочникиТарифыСтраховыхВзносов</content>
+  <parentSubsystem>Subsystem.Интерфейс77Справочники</parentSubsystem>
+</mdclass:Subsystem>

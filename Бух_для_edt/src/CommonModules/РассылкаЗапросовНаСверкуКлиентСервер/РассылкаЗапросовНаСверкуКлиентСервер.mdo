@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a2a2ebb-6444-4fc8-b430-d845809d6943">
+  <name>РассылкаЗапросовНаСверкуКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка запросов на сверку клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

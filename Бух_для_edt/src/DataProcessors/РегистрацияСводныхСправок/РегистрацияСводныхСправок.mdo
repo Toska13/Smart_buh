@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3121ed0f-8cf7-4529-b29d-7cb70a69fd4b">
+  <producedTypes>
+    <objectType typeId="a018a2ab-dc00-4ca3-a696-a0d78d26afb9" valueTypeId="43c7f16e-137c-42bb-aaff-80095fef27e9"/>
+    <managerType typeId="de715302-45fb-4211-897d-64ade1eb9fa0" valueTypeId="6046a2dc-8767-4dbe-ab79-79e3b260b397"/>
+  </producedTypes>
+  <name>РегистрацияСводныхСправок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация сводных справок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегистрацияСводныхСправок.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="61d3a187-daa8-4280-85e1-75b82f60926f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="dddbf0d3-ac4e-4f33-81c5-02631a3714ac">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="c90150f6-f7bb-4c23-9d9d-3d44150fb94c">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="fb297da9-d8fd-4299-8f25-2d02c058b584">
+    <producedTypes>
+      <objectType typeId="99d60907-7bbd-4b49-8d3d-368f9970c2a6" valueTypeId="b0f96495-1ef6-4f0d-95a1-0dce36c537f8"/>
+      <rowType typeId="7eae99dd-75d5-4524-a0d4-09aff716b76d" valueTypeId="f892dd7d-8769-4feb-a52a-0280cb079202"/>
+    </producedTypes>
+    <name>СписокПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список продажи</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a43dbf60-ef55-4c46-8593-f917471db9ea">
+      <name>ДокументПродажи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ продажи</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ОтчетКомиссионераОПродажах</types>
+        <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="68c203cf-f652-42d1-89a9-8696a77b54b2">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5cd0c104-0123-40fb-b09e-938f665c1057">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="169157ba-a095-47d1-b845-3d90275a84b3">
+      <name>СуммаНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="943da15f-4f86-4800-824e-ea0801b07782">
+      <name>СводнаяСправка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сводная справка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.СчетФактураВыданный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b30d94ec-d896-47aa-a74c-086de0b27ea9">
+    <producedTypes>
+      <objectType typeId="e76b2a5b-7eb0-4dea-ae36-98f3c1c171f2" valueTypeId="ed78c609-427f-4cfc-a8e8-cdc0c800b846"/>
+      <rowType typeId="d0044db0-e893-4c4e-979b-78a601d89d0b" valueTypeId="46bc330d-3927-411f-9d2b-236e3af4fa58"/>
+    </producedTypes>
+    <name>СписокВозвраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список возвраты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="19932d07-e0e2-4e2c-8660-f65ada09c550">
+      <name>ДокументПродажи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ продажи</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ОтчетКомиссионераОПродажах</types>
+        <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7d24e257-5729-4bcd-8513-8446a1435790">
+      <name>ДокументВозврата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ возврата</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ОтчетКомиссионераОПродажах</types>
+        <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d17fe4de-0d44-4f7e-87ab-8b5842c1c836">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bf0e5e2b-e8fd-4b21-9807-d97731470908">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="13f9dfb4-a3c5-4448-82a4-1c24b94c914d">
+      <name>СуммаНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="77a0fb6b-c35f-480f-accb-607830453aca">
+      <name>СводнаяСправка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сводная справка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.СчетФактураВыданный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8681444d-e550-4111-b039-cead5064affb">
+      <name>КорректировочнаяСводнаяСправка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Корректировочная сводная справка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.СчетФактураВыданный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7d62a81c-8cdc-43b9-93d4-5d16fcafd3a8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

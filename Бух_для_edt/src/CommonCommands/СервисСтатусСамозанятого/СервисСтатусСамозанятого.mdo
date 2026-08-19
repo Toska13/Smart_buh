@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc998dc1-757d-428b-9547-5b4ae018f016">
+  <name>СервисСтатусСамозанятого</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис 1С:Статус самозанятого</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

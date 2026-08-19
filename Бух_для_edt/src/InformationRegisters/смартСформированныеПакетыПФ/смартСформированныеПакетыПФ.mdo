@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40cab70b-ad54-4005-be05-67209517bf94">
+  <producedTypes>
+    <selectionType typeId="ef87b9ee-371a-4b66-9634-cedce12d9e9b" valueTypeId="6bf1df92-5f4a-491e-9794-293af24b5b57"/>
+    <listType typeId="21ac0b52-86b6-4691-9043-dd3b4bc82a92" valueTypeId="88682b20-c7dc-464c-b2ca-9ea8f2046662"/>
+    <managerType typeId="25a81c9d-d084-4578-8c03-4c9a8a313885" valueTypeId="abfa6009-8344-4276-99e3-ddf390380f86"/>
+    <recordSetType typeId="1a851e64-b799-4792-a18f-5edbebe24d15" valueTypeId="a6eaea26-790c-4dd7-9c4c-8c2c78969b1b"/>
+    <recordKeyType typeId="ed88cb83-059a-430f-bdbd-6c6cb6fa2d30" valueTypeId="81903fb0-76fe-4801-a160-ed2989fd4bb3"/>
+    <recordType typeId="52a16b59-5af5-4cf1-8d68-07b19ba57177" valueTypeId="e961d7d7-bdde-4b7e-a291-315604f769f2"/>
+    <recordManagerType typeId="073e487c-99e0-471c-8c6e-94fea0f6e678" valueTypeId="c6e068ee-dbab-49a7-b865-4010d09b4ffa"/>
+  </producedTypes>
+  <name>смартСформированныеПакетыПФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сформированные пакеты ПФ (смарт)</value>
+  </synonym>
+  <comment>// смарт:ММ 572 04.07.2021</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1b9ab2d2-cc0d-4fbc-a583-84742bff8060">
+    <name>ПакетСформирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет сформирован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0c452ff5-a364-4cb7-b41a-d22ef7c14512">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

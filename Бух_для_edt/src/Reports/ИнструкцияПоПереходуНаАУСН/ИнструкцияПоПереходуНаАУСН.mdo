@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79d272c4-fe5f-4b90-b50d-0743fd390c90">
+  <producedTypes>
+    <objectType typeId="fe0161e7-012d-4e3e-823c-95be85779024" valueTypeId="4d82c1cb-d7e5-4e1b-a64f-39daed89a0fe"/>
+    <managerType typeId="81376a6a-f786-4e1d-b42a-927297d73f09" valueTypeId="65cc1b21-056f-4110-8327-3a8ac3ae982e"/>
+  </producedTypes>
+  <name>ИнструкцияПоПереходуНаАУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Как перейти на АУСН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ИнструкцияПоПереходуНаАУСН.Form.Форма</defaultForm>
+  <forms uuid="2f379fde-b480-431e-8138-5e3cacf7bda9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

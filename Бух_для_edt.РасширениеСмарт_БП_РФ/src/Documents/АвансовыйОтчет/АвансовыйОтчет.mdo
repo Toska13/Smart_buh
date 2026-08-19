@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="27386e52-e871-499a-be6a-ce6a66382580" extendedConfigurationObject="fcaee2cb-0d08-4617-98c7-044bf5d3c3bd">
+  <producedTypes>
+    <objectType typeId="377f469d-ccdb-4311-8c49-935fb4ee4608" valueTypeId="ed6e840f-ab52-4a28-84b3-504fa1f7e772"/>
+    <refType typeId="fbc16318-ea9b-4a77-a5a0-326a4a464b15" valueTypeId="a7d52814-704e-43b3-abf2-f418e1143db6"/>
+    <selectionType typeId="f73d3e7f-9059-43ce-9e1e-bb5b71aa94d5" valueTypeId="112f719c-82f3-4991-b0d8-b9ebd16b1bf0"/>
+    <listType typeId="94652e29-18f8-4320-ae80-b5fdf328ad03" valueTypeId="14822534-fecd-4c44-8872-6eb17f803e6a"/>
+    <managerType typeId="cf1f5cf2-3906-4af6-aa0c-31fd28a616a6" valueTypeId="518d8e8c-e856-4776-896b-7c434861a712"/>
+  </producedTypes>
+  <name>АвансовыйОтчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="b3b463fd-7cfb-40f0-9c54-c2582d4222df" extendedConfigurationObject="1b1a1eef-a68c-4af4-b74b-1254e04b6e1e">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

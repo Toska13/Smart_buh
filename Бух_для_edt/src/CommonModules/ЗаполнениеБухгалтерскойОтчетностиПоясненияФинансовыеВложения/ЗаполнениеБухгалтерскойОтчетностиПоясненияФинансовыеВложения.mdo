@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41cfd33e-23c7-4558-bfdc-29b8887b118f">
+  <name>ЗаполнениеБухгалтерскойОтчетностиПоясненияФинансовыеВложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение бухгалтерской отчетности пояснения финансовые вложения</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

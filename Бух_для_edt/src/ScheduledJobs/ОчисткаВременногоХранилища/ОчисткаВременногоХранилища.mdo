@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fa1bce8-c69f-464f-a9ea-402d9ccddd8c">
+  <name>ОчисткаВременногоХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка временного хранилища</value>
+  </synonym>
+  <methodName>CommonModule.КалендарьОтчетности.ОчиститьВременноеХранилище</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

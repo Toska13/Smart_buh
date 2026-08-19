@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e6053f8-9f7a-4a01-a2d6-9b7680c34272">
+  <producedTypes>
+    <selectionType typeId="85d20868-a5bc-490e-a793-3a435b13660a" valueTypeId="b392c3a5-7ff0-4afd-ab73-dbbccfc1300a"/>
+    <listType typeId="e23e11ee-6f7e-492b-b40b-d6ea0ef1cad4" valueTypeId="829f6b24-e9f7-4397-9806-b57ecfa3df07"/>
+    <managerType typeId="4c0bfecd-ff3a-4f34-af16-8b3431fb3f8e" valueTypeId="e607b331-fc31-4d4f-9b46-48dd39dbd18b"/>
+    <recordSetType typeId="d4069219-50d6-4d04-a109-0d9f552ae311" valueTypeId="446c52b7-a25b-4143-85f5-76b3c8f17b0d"/>
+    <recordKeyType typeId="d1978301-b93c-4dfb-9ef7-82e935b4db60" valueTypeId="0d1e27bf-6b66-4dc3-8720-69582f88c77e"/>
+    <recordType typeId="1eb79b0c-be95-4dcd-96da-a964ba5ed8d5" valueTypeId="ec35d22d-f399-4803-9706-16754741dbfa"/>
+    <recordManagerType typeId="a7a1b13f-dd66-493a-8200-7b683906ba81" valueTypeId="c7790630-90d7-4cdf-98fa-ccbe5fb453c8"/>
+  </producedTypes>
+  <name>смартНоменклатураКонтрагентовБЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура контрагентов (смарт)</value>
+  </synonym>
+  <comment>#5612 смарт: Тимофеева 24.06.2026 / Доработка или донастройка блока Диадок в БП в части входящих документов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.смартНоменклатураКонтрагентовБЭД.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.смартНоменклатураКонтрагентовБЭД.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="96fc707b-6620-4564-b2dc-2cfa17d35acf">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="e55c071a-b797-4af2-ac9d-9ae308dcaba8">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>DefinedType.НоменклатураБЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="53bc33cf-e00d-46c2-880f-209e63f9f2ab">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="695e6400-9173-4868-b3ea-99c816f1da1b">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВладелецНоменклатурыБЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="27aadc08-6213-42dc-9c40-96b8b6472d9f">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ee777379-7e93-42dd-9162-5fdf696e92bf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="709bab23-fc5b-4996-8034-fc7daa8a0b7b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

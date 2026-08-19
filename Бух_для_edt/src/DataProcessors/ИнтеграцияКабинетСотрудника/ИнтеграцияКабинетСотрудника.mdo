@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c82bdf38-5782-466d-9af8-4b786eb993f4">
+  <producedTypes>
+    <objectType typeId="5f701566-95b1-4a1e-a554-5bbd55e1dbb3" valueTypeId="70b3f856-ac56-4476-9b82-c82a90de2aa1"/>
+    <managerType typeId="263eff6d-33b3-4a8a-899f-ff021a998ea5" valueTypeId="281a465e-cf72-4ce1-8d08-8316487f0ceb"/>
+  </producedTypes>
+  <name>ИнтеграцияКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция кабинет сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтеграцияКабинетСотрудника.Form.Форма</defaultForm>
+  <attributes uuid="4f604c1a-ca55-4be7-8774-6fde06046785">
+    <name>АдресПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="87ad4a89-f9e8-4510-a391-efe4dfe5a9c3">
+    <name>АдресПриложенияПоИмени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес приложения по имени</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="074b9322-e9d2-4d50-bfca-ccfe7a73a794">
+    <name>АдресПриложенияПоИмениДоступен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес приложения по имени доступен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="49b095cd-9597-4484-899c-e30669693246">
+    <name>ПриложениеПодключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение подключено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a746f90d-8f77-4994-bbc7-c513922603b2">
+    <name>ПриложениеВЛокальнойСети</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение в локальной сети</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a97e4900-e6cb-41cc-ad76-a5c31ea68182">
+    <name>ИдентификаторПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="32f616d8-442b-4bf7-bb3f-aae9be3ddf2b">
+    <name>ВидКИАдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид КИАдрес электронной почты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28270827-7bdf-4778-8f26-61d1a115ae90">
+    <name>ВидКИМобильныйТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид КИМобильный телефон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="074656f6-97b3-4d59-a1eb-7102a5820f20">
+    <name>ЭтоАвтономноеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это автономное рабочее место</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eb264135-c6dd-4c28-8ecc-43e8a8378915">
+    <name>РазделениеВключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделение включено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="46591ce0-4a69-40ab-b863-ee346c935ba2">
+    <name>РазрешенныеСимволыИмениДомена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешенные символы имени домена</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2de12a43-ae85-400d-9813-5b8e5e81044d">
+    <name>ИмяДомена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя домена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b27d43c7-34da-4704-a3ab-7b5424f12dc2">
+    <name>ПояснениеИмяДомена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пояснение имя домена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8967d2d2-6faf-45ad-ba9b-2ee1ef1b5f28">
+    <name>ИмяПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="426d99ac-defb-4803-9868-35c37edd7e3f">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="421969c9-83ff-4e71-b169-f94538dba945">
+    <name>АбонентИПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонент ИПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd647f09-af74-403c-89d4-205948424bb0">
+    <name>ИдентификаторАбонентаИПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор абонента ИПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e346e538-a367-41b8-ae01-9b1e1a093963">
+    <name>ИдентификаторЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор заявки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f5c456b-021a-4ac7-a818-a0ca644ab0ec">
+    <name>АдресСервисаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервиса авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="21d0b2db-0d81-48df-b91a-bf755d580625">
+    <name>АдминистраторНеУстановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор не установлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ff3e5ca-8d5a-4413-b6b2-21dad2210588">
+    <name>РегламентныеЗаданияЗаблокированы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные задания заблокированы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d88cf970-57ec-47f7-bcfc-2782b10acdb8">
+    <name>Интеграция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграция с сервисом &quot;1С:Кабинет сотрудника&quot;</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4af40aef-9737-4d00-8ba0-5c3dbb10b184">
+    <name>НастройкиСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сервиса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d37b24a1-8d4e-4a38-b368-ac47c26bfb37">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8cd47284-c379-4a68-8f54-67e1b9a04170">
+    <name>НастройкаОбсужденийКабинетСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка обсуждений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="27f5d736-9489-4db7-ad1c-74aeaa2c4270">
+    <name>Интеграция1СКабинетСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис 1С:Кабинет сотрудника</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

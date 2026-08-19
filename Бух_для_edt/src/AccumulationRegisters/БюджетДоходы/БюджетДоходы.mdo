@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76988f98-5b27-4279-9fef-d6ad19ceaf70">
+  <producedTypes>
+    <selectionType typeId="5a46e29e-7218-4618-89d8-fbb50f3678ac" valueTypeId="80b25fdf-fd49-494e-aa92-e3e2a9d718e4"/>
+    <listType typeId="30ed0532-b57b-4d5c-af47-4301dff5154c" valueTypeId="ac31e6fe-7114-4709-9c7e-19ab78ecc487"/>
+    <managerType typeId="269b4071-49b8-49a4-b802-1b805c8bf329" valueTypeId="09ce9589-7ac1-4074-9b92-fe130255ea4a"/>
+    <recordSetType typeId="64021f31-91df-400e-aa2e-cf9bb737c8f7" valueTypeId="fa58096b-ab7d-4530-8d2a-c86a05761cbd"/>
+    <recordKeyType typeId="ac7325db-68fe-47f7-9d39-2b5ce59a5000" valueTypeId="fe268d75-b545-46f2-83f6-a31b74cd2a81"/>
+    <recordType typeId="96710d75-3b64-4b06-837e-0da111df2b24" valueTypeId="f2c91f14-4adc-4c91-afae-e356554ed6c3"/>
+  </producedTypes>
+  <name>БюджетДоходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет доходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="293b21a0-ca13-4abc-a1c7-c5b0acf00a8a">
+    <name>СуммаПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма (План)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f5621601-e9e1-4dac-b6b8-1c5e9a67b01c">
+    <name>СуммаФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма (Факт)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6140fb16-380a-499d-8fd0-76afd0357091">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6f2f6dee-96d1-4f41-806b-e0a2c7199bc8">
+    <name>СтатьяДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья дохода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

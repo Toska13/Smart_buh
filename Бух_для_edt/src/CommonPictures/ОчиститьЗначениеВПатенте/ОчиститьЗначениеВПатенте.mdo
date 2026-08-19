@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="024a5c3c-bcbf-47e4-ae0b-6bcdd361c6c2">
+  <name>ОчиститьЗначениеВПатенте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистить значение в патенте</value>
+  </synonym>
+</mdclass:CommonPicture>

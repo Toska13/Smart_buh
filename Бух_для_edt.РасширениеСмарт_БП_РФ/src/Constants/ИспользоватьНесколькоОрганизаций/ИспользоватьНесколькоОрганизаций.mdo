@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="74202e9f-fd0f-459d-9cdb-2db1134fb2d0" extendedConfigurationObject="b1b5841d-0cf9-4de5-8561-b35b8f286d21">
+  <producedTypes>
+    <managerType typeId="a28c0fb6-ffba-4599-999f-ca7bc1ba0bd1" valueTypeId="f81c938a-d615-4c9c-874e-7cccc02c9bf2"/>
+    <valueManagerType typeId="edf88b72-d07c-43cc-b013-056969a182b5" valueTypeId="0bc51a84-9532-4656-bdd7-567cfec04333"/>
+    <valueKeyType typeId="4584fa2c-95ea-43a4-b2e1-f5c17b7df3f7" valueTypeId="d3e2b1a2-425a-4f55-a2e1-c4d24dc58ccc"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

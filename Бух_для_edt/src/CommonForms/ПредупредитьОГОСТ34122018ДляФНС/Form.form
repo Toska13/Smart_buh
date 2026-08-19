@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Внимание!</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>ТекстПредупреждения</name>
+    <id>11</id>
+    <title>
+      <key>ru</key>
+      <value>В соответствии с &lt;link https://its.1c.ru/db/garant/content/408683953/hdoc>приказом ФНС России от 27.03.2024 г. N ЕД-7-26/245@&lt;/> с 01.04.2026 г.
+для обмена с ФНС требуется использовать криптопровайдер, поддерживающий алгоритмы
+шифрования ГОСТ 34.12-2018 и ГОСТ 34.13-2018.
+
+&lt;link Обновить>Обновите&lt;/> КриптоПро CSP до версии 5.0.12000 (R2) или выше.</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ТекстПредупрежденияРасширеннаяПодсказка</name>
+      <id>13</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ТекстПредупрежденияКонтекстноеМеню</name>
+      <id>12</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <handlers>
+        <event>URLProcessing</event>
+        <name>ТекстПредупрежденияОбработкаНавигационнойСсылки</name>
+      </handlers>
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Right</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <windowOpeningMode>LockWholeInterface</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>ТипКриптопровайдера</name>
+    <title>
+      <key>ru</key>
+      <value>Тип криптопровайдера</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>EnumRef.ТипыКриптоПровайдеров</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ГОСТ34122018ViPNetCSPДоступен</name>
+    <title>
+      <key>ru</key>
+      <value>ГОСТ 34.12-2018 ViPNet CSP доступен</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ccfdfa3-9f05-4397-9ac6-3e6b32107b15">
+  <producedTypes>
+    <objectType typeId="eb25dba3-4b40-4530-bb7f-0b896924b5d6" valueTypeId="766fd259-052c-4921-8863-4b3cb35c04bb"/>
+    <managerType typeId="2248d34c-24e7-4c69-ae54-df6964ab7f2a" valueTypeId="97c08622-bb8a-44c6-a178-1e220f49ffb4"/>
+  </producedTypes>
+  <name>ПомощникСверкиРазметкиАУСНСДаннымиФНС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник сверки разметки АУСН с данными ФНС</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникСверкиРазметкиАУСНСДаннымиФНС.Form.Форма</defaultForm>
+  <forms uuid="6520dded-7bd9-4cfc-8eb1-038de6a427f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="858b6590-fbb6-4006-b027-2bcb8b8f8fe4">
+    <name>ИнструкцияРазрешениеРасхождений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция разрешение расхождений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

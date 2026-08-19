@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a6fd767f-378b-4bd0-99f7-107db92c62b7" extendedConfigurationObject="d55030db-19dd-4848-ae77-99ae38235f9d">
+  <producedTypes>
+    <objectType typeId="662ecca1-83e2-4dc7-b75c-cc9ee56d803d" valueTypeId="377e297a-49f5-440d-9bc7-0422b33d2964"/>
+    <refType typeId="1138d1d6-2bce-4eae-80bf-197575e43ed2" valueTypeId="febe36fc-8fda-4982-9e9e-839092bb4d63"/>
+    <selectionType typeId="fc120687-fe7b-4a59-90a1-ea76826a9177" valueTypeId="c11f985e-f808-4b80-bd0f-31b9cd75a214"/>
+    <listType typeId="cd916132-7da8-43ed-b992-c306a6f1d1cb" valueTypeId="fae07527-6e2c-4d4a-b223-683213bc3079"/>
+    <managerType typeId="4c5c6b70-1008-4f60-828a-3cab362db16f" valueTypeId="8f3a66c0-61a5-47ff-9c50-f55b6542a699"/>
+  </producedTypes>
+  <name>ПрочиеДоходыИРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

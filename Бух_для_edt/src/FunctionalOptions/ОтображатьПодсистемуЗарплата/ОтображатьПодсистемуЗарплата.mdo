@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="425354b2-3b6b-466d-b125-0a9c0bc7155c">
+  <name>ОтображатьПодсистемуЗарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать подсистему зарплата</value>
+  </synonym>
+  <location>Constant.ОтображатьПодсистемуЗарплата</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ПростойИнтерфейсЗарплата</content>
+  <content>Subsystem.Отчеты.Subsystem.Сотрудники</content>
+  <content>CommonCommand.Зарплата</content>
+</mdclass:FunctionalOption>

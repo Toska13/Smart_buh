@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9972fa2f-8355-4abb-ab96-92991dce90ff" extendedConfigurationObject="5e7efda3-e1e0-4ecb-9431-be4f053e4d65" thisNode="7e5ededb-c0b1-4ce1-ab4b-a1ae449c64c0">
+  <producedTypes>
+    <objectType typeId="e0bbe152-83aa-415c-821d-d3e03f04ab0d" valueTypeId="763be75a-d367-4120-ba79-d2ee5e1fc8d1"/>
+    <refType typeId="24d33a34-ee30-48cb-b2ce-c984514e4828" valueTypeId="6451df4f-207b-4e5b-9658-79ab5050c312"/>
+    <selectionType typeId="22c421d5-d090-469c-a7bb-b2e48c1523fb" valueTypeId="bcd60034-7110-4e75-86b7-6b6d18d10110"/>
+    <listType typeId="8b1d2d22-eabb-40b8-8007-16728a4ebbef" valueTypeId="d9b27893-0b7c-4893-b800-1d4f553d1e64"/>
+    <managerType typeId="984da738-286c-4dfe-ba0b-e9e57fee50e3" valueTypeId="8dfe8a3e-d69d-481a-a4b5-9d6eac89abe6"/>
+  </producedTypes>
+  <name>СинхронизацияДанныхЧерезУниверсальныйФормат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ExchangePlanExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+  </extension>
+  <content>
+    <mdObject>Document.ОперацияБух</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Document.КорректировкаДолга</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+</mdclass:ExchangePlan>

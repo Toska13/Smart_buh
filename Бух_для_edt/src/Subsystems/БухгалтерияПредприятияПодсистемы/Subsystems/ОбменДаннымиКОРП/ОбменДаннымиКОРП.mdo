@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd447bbf-0ad9-453b-b44f-dae005deff13">
+  <name>ОбменДаннымиКОРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными КОРП</value>
+  </synonym>
+  <content>ExchangePlan.ОбменБухгалтерияПредприятияДокументооборот</content>
+  <content>ExchangePlan.ОбменБухгалтерияПредприятияДокументооборот20</content>
+  <content>ExchangePlan.УдалитьОбменУправлениеТорговлейБухгалтерияПредприятияКОРП30</content>
+  <content>ExchangePlan.УдалитьОбменУправлениеТорговлейБухгалтерияПредприятияКОРП</content>
+  <content>EventSubscription.ОбменБухгалтерияПредприятияДокументооборот20ПередЗаписью</content>
+  <content>EventSubscription.ОбменБухгалтерияПредприятияДокументооборот20ПередУдалением</content>
+  <content>EventSubscription.ОбменБухгалтерияПредприятияДокументооборотПередЗаписью</content>
+  <content>EventSubscription.ОбменБухгалтерияПредприятияДокументооборотПередУдалением</content>
+  <content>CommonModule.ОбменДаннымиСобытияДокументооборот</content>
+  <content>CommandGroup.ИнтеграцияС1СДокументооборотСогласование</content>
+  <content>EventSubscription.ИнтеграцияС1СДокументооборотПриЗаписиКонстанты</content>
+  <content>ExchangePlan.УдалитьОбменУправлениеНебольшойФирмойБухгалтерия30</content>
+  <content>EventSubscription.ОбменБухгалтерияПредприятияДокументооборот20ПередЗаписьюДокумента</content>
+  <parentSubsystem>Subsystem.БухгалтерияПредприятияПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

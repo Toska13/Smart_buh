@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9b9ee01-eba2-49e5-94c0-1297843a6ab2">
+  <producedTypes>
+    <selectionType typeId="6461f8b5-a337-45e7-a231-a2150ff1a543" valueTypeId="cd63eb6b-79ef-4f0c-ba49-e73f1f267c54"/>
+    <listType typeId="fd4c62c0-20fe-4140-98fc-dc234b771b19" valueTypeId="3a122c42-acff-49e0-b0ec-1e95141b5395"/>
+    <managerType typeId="b8e4bebc-d6ce-4830-9d3c-02c68913c48b" valueTypeId="5f5404c3-f24f-4d50-ae2b-5c961d8a8df1"/>
+    <recordSetType typeId="8acb6145-cd3c-4d08-8ca1-f594b0414745" valueTypeId="76f2addf-7a64-4014-861b-3f02dd646f8f"/>
+    <recordKeyType typeId="51193a61-2f9f-4ecd-9265-c3cd598abb77" valueTypeId="240cf6f7-2102-4314-810a-654d500c1546"/>
+    <recordType typeId="4ef8717b-ff0f-4beb-b35e-0f9cdf2eb58c" valueTypeId="f8b7ed64-d92f-4fe0-95a1-498d00b977d7"/>
+    <recordManagerType typeId="b8a9ca15-5386-4c80-b221-31c7967d5776" valueTypeId="1e3b0cfd-ba8f-4633-8b20-5d9ce3183dd7"/>
+  </producedTypes>
+  <name>смартОтправленыВУТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смарт отправлены ВУТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="475b3deb-0e65-4ab4-a4d5-357805d0fe9e">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e18d79b9-b3af-480b-a51a-77491b4b1725">
+    <name>ОтправленXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен XML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="40b69a26-8448-4b7e-850f-1b4bef723ee8">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="fa34c1b2-950b-4b9e-a205-30f4cee1bb2d">
+    <name>ОбъектОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект отправки</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОперацияБух</types>
+      <types>DocumentRef.КорректировкаДолга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

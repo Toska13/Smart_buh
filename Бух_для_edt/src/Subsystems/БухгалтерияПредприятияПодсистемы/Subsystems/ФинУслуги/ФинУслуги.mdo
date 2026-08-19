@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b14b5c7-40aa-4b34-9a92-3a6dc752c115">
+  <name>ФинУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фин услуги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ФинУслуги</content>
+  <content>CommonModule.ФинУслугиВызовСервера</content>
+  <content>CommonModule.ФинУслугиКлиент</content>
+  <content>CommonModule.ФинУслугиКлиентСервер</content>
+  <content>XDTOPackage.ФинУслуги</content>
+  <content>CommonPicture.СтрелкаВправоФинансы</content>
+  <content>CommonPicture.ДолларФинансы</content>
+  <content>CommonPicture.ЕвроФинансы</content>
+  <content>CommonPicture.НедоступнаяСтрелкаВлевоФинансы</content>
+  <content>CommonPicture.НедоступнаяСтрелкаВправоФинансы</content>
+  <content>CommonPicture.ПодменюВертикальноеФинансы</content>
+  <content>CommonPicture.ПустаяВалютаФинансы</content>
+  <content>CommonPicture.РубльФинансы</content>
+  <content>CommonPicture.СтрелкаВлевоФинансы</content>
+  <content>CommonPicture.ЮаньФинансы</content>
+  <content>DataProcessor.ФинансыОрганизации</content>
+  <content>CommonCommand.ФинансыОрганизации</content>
+  <content>Enum.ХарактеристикиСервисаФинУслуги</content>
+  <content>InformationRegister.ГруппыКомпанийБанков</content>
+  <content>CommonPicture.КотСон</content>
+  <content>CommonPicture.КотОшибка</content>
+  <content>InformationRegister.КэшПоказателейФинУслуги</content>
+  <parentSubsystem>Subsystem.БухгалтерияПредприятияПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

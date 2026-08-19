@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cca12b8-3ea0-4c59-8138-b7e44ae5d6f9">
+  <producedTypes>
+    <refType typeId="24e542e8-5ab8-403b-8020-40dc33b44d3f" valueTypeId="8b9fd830-604c-4f88-a95d-705473c3602f"/>
+    <listType typeId="8d044d37-36b8-438a-9459-dce3b618b0b6" valueTypeId="6b10ec9b-7c66-421c-823d-9ec6d3c8d8e9"/>
+    <managerType typeId="c647ae58-b1b9-4c1c-9ebf-e893bea0846c" valueTypeId="6c748a04-6ce6-4a88-bc49-20e7e650f1c1"/>
+  </producedTypes>
+  <name>ВидыОблачныхПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды облачных приложений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="910d3ba3-9e65-4fe9-91ca-b8161edb6275">
+    <name>Бухгалтерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80a25b3f-f760-4ff4-b815-0e140cb9ff30">
+    <name>Зарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата и управление персоналом</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

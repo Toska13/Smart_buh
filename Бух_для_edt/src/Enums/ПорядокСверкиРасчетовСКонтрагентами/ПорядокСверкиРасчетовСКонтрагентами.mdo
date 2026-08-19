@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4985804c-add4-431e-82af-e94cc5a00696">
+  <producedTypes>
+    <refType typeId="b5678e7c-e365-4a6c-98c9-31fefc9fb3cc" valueTypeId="d873cbb9-c31c-45f6-bbca-ffa453eedc26"/>
+    <listType typeId="5f1db9dc-8114-4ed3-9af5-d1797a4aadac" valueTypeId="e493723f-9998-47b8-bd87-ee0201652d6a"/>
+    <managerType typeId="3cfda5e5-20bb-4a22-b746-ccdb619ae72c" valueTypeId="7d0d3ba7-07a1-4ba3-8693-94ecc03208b3"/>
+  </producedTypes>
+  <name>ПорядокСверкиРасчетовСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок сверки расчетов с контрагентами</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="117cda64-1bb9-40e4-a23b-cacafa061a68">
+    <name>ЗапроситьАктСверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запросить акт сверки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="444378d5-a99e-4dec-b3e5-d7ed5c113de2">
+    <name>ОтправитьНашАктСверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить наш акт сверки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

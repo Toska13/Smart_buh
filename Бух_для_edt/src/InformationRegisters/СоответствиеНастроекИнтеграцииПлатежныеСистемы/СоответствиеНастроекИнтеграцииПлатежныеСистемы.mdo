@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d42a494b-13c3-4225-aa22-87f281668e1e">
+  <producedTypes>
+    <selectionType typeId="fec8bcdd-21fb-4de0-b12b-19545253bb8a" valueTypeId="69ebd447-2b71-4adb-8c63-05cd5d455326"/>
+    <listType typeId="e6e57614-4f1d-4ceb-98ce-902471451fa2" valueTypeId="09cc6f28-8cb9-46bc-bcf4-72586fd509d3"/>
+    <managerType typeId="bc429007-8390-4527-b1b9-5e6f71efeed4" valueTypeId="cc6ce967-12ae-466e-bd13-3ca5e5340fdb"/>
+    <recordSetType typeId="99b77ec2-d819-4b6e-aace-c4d7d07b51ac" valueTypeId="a391d30e-a8d7-4048-8c00-543c96ecce07"/>
+    <recordKeyType typeId="1eaa3a1d-69d6-44a5-bb85-10c5e96f7c34" valueTypeId="c29ee1b4-813f-4d52-ad31-cc5761ba2a84"/>
+    <recordType typeId="2048d411-852a-4852-9600-08cd16ec16c8" valueTypeId="a551443b-d0bc-4a1b-a182-d7e182c3020a"/>
+    <recordManagerType typeId="f1c27022-a6b9-4f75-aa9b-53b2ec859d2a" valueTypeId="b4ec93b0-724c-4934-9c1d-677f1d639d47"/>
+  </producedTypes>
+  <name>СоответствиеНастроекИнтеграцииПлатежныеСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие настроек интеграции платежные системы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1a054fff-f01b-4096-a6cb-b49ef25fb8f0">
+    <name>НастройкаИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка интеграции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиПодключенияКПлатежнымСистемам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="11e77800-5b10-4b44-b7f7-73f7f4971c55">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cf780a9e-14d2-4de3-a447-341649fb9fcf">
+    <name>ВидОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОплатОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>InformationRegister.СоответствиеНастроекИнтеграцииПлатежныеСистемы.Dimension.Организация</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

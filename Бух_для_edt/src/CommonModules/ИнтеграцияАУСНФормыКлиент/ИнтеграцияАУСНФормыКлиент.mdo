@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6febc63b-e81e-4665-a989-e24afdb39a29">
+  <name>ИнтеграцияАУСНФормыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с сервисом АУСН (формы на клиенте)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

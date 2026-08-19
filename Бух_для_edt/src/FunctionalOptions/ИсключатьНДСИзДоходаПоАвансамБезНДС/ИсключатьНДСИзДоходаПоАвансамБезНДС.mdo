@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d892c6d-ee01-41ac-8b94-8f63cfd00694">
+  <name>ИсключатьНДСИзДоходаПоАвансамБезНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключать НДС из дохода УСН по авансам без НДС</value>
+  </synonym>
+  <location>InformationRegister.НастройкиУчетаУСН.Resource.ИсключатьНДСИзДоходаПоАвансамБезНДС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

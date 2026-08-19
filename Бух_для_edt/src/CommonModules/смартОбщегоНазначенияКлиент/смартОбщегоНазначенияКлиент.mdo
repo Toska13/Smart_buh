@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3561e3be-4450-4b22-ac1a-5abf31dd8b4a">
+  <name>смартОбщегоНазначенияКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смарт общего назначения клиент</value>
+  </synonym>
+  <comment>// смарт:ММ 572 04.07.2021</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

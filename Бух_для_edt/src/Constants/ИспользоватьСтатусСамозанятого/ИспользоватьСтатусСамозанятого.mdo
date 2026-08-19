@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc4c8931-deeb-4610-aa41-b65171f9aacf">
+  <producedTypes>
+    <managerType typeId="c58d85d6-2a12-4941-a15f-ee53a4b1e368" valueTypeId="9ba88e14-ea14-4163-ad77-745efe35572f"/>
+    <valueManagerType typeId="66503102-614a-4181-807f-14cdb98b6031" valueTypeId="252f46c6-a4d6-47ed-b505-af52d02e66ff"/>
+    <valueKeyType typeId="872183e8-cd1e-44c8-9e37-46553abab595" valueTypeId="e52ae5fc-6a8a-4ca3-994f-d0ac9327905e"/>
+  </producedTypes>
+  <name>ИспользоватьСтатусСамозанятого</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис Статус самозанятого</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecb6055b-2666-4bda-b477-93b5b2264cc2">
+  <producedTypes>
+    <objectType typeId="6ed0c51c-c44d-417b-8a52-638e8b0e97b8" valueTypeId="c07b14bb-a70c-40bd-8945-8e6900a70504"/>
+    <managerType typeId="a6440909-8429-49bf-b147-eacf0fd0d2f0" valueTypeId="944fe613-638d-4e4f-8610-8dbe4093823b"/>
+  </producedTypes>
+  <name>СверкаДекларацийПрибыльНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка деклараций по налогу на прибыль и НДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СверкаДекларацийПрибыльНДС.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СверкаДекларацийПрибыльНДС.Template.Основная</mainDataCompositionSchema>
+  <attributes uuid="053b763f-4d5d-43a5-93b3-aed53c303722">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="cb372004-6b52-4d4a-9147-f13acf7e8452">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e868e92a-24b8-4ce7-91c5-b197a16bc96f">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="98c01aca-a3b2-4272-aa91-8dd300ae2812">
+    <name>ПоляРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля расшифровки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68dbf648-5186-499d-ac2a-4027c4af6724">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6f31bf53-943d-4c28-9463-0126b5ced943">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b273cc17-8376-4996-a6da-47668bc2bd8a">
+    <name>Расшифровка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="34332c02-3fcf-4d71-b79c-43c8a4bdeadf">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ea052849-7398-4722-8aa0-9b1e7b7429d4">
+    <name>РасшифровкаОтчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка отчеты</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ca52e89d-12b5-40ef-8b46-bdf940a5f0b9">
+    <name>РасшифровкаДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка документы</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

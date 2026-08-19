@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="320a5a41-69dc-43e2-a8d2-6e27894def7a">
+  <name>СверкаРазметкиАУСНКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка разметки АУСН (клиент, сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

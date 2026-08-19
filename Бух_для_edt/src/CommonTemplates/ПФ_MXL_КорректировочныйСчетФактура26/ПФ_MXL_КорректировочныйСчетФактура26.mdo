@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="323174e7-5f7a-474a-abb7-396b4ea9d830">
+  <name>ПФ_MXL_КорректировочныйСчетФактура26</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировочный счет-фактура по Постановлению № 1137 (в редакции постановления № 26 от 23.01.2026)</value>
+  </synonym>
+</mdclass:CommonTemplate>

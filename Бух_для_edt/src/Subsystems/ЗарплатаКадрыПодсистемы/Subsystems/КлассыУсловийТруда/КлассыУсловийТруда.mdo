@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90db6205-c42b-4834-9e39-b2532b210b5b">
+  <name>КлассыУсловийТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы условий труда</value>
+  </synonym>
+  <content>InformationRegister.КлассыУсловийТрудаПоДолжностям</content>
+  <content>Enum.КлассыУсловийТрудаПоРезультатамСпециальнойОценки</content>
+  <content>FunctionalOption.ПрименятьРезультатыСпециальнойОценкиУсловийТруда</content>
+  <content>Role.НастройкаКлассовУсловийТрудаПоДолжностям</content>
+  <content>CommonModule.КлассыУсловийТруда</content>
+  <content>CommonModule.КлассыУсловийТрудаВнутренний</content>
+  <content>CommonModule.КлассыУсловийТрудаКлиент</content>
+  <content>CommonModule.КлассыУсловийТрудаКлиентСервер</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

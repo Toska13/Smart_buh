@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="34f4c08f-46b2-491a-8119-6a7a99ca589b" extendedConfigurationObject="40cab70b-ad54-4005-be05-67209517bf94">
+  <producedTypes>
+    <selectionType typeId="4beb1863-e661-4b2b-855a-bdbfe1404c9d" valueTypeId="1d5eeb8c-ef67-4378-b174-8d2b3d211a59"/>
+    <listType typeId="bb39f104-fffe-4ea3-93d7-9ef40e497875" valueTypeId="6f388f1a-2729-4ab2-8eaa-f3d6d1431905"/>
+    <managerType typeId="cbc29ad9-0bce-4a48-af17-2d541dbc115a" valueTypeId="f10ce78d-be6a-4ad5-8a8a-a00339527389"/>
+    <recordSetType typeId="e1ad68d8-bb0a-4562-ba08-df322934e495" valueTypeId="820e8587-cfd9-426a-85e9-a85b0d9be7d0"/>
+    <recordKeyType typeId="a68361c0-c066-413d-aa97-91167603f01a" valueTypeId="0b4403d8-77c5-4fb9-9c04-2b6039ca84f0"/>
+    <recordType typeId="65e7ac31-48e1-4c3d-94d6-43e7d54a90c5" valueTypeId="fa0d9ccd-f545-4110-91af-73a14840982e"/>
+    <recordManagerType typeId="7bc30de6-360d-4cda-a66a-44507d31769e" valueTypeId="949556a2-ed73-462e-829b-9886bbcca16f"/>
+  </producedTypes>
+  <name>смартСформированныеПакетыПФ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

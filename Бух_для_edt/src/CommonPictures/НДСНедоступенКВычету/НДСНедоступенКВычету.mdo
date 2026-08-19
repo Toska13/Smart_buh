@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27ea1dcf-68d1-4968-b792-500c1c817906">
+  <name>НДСНедоступенКВычету</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДС недоступен к вычету</value>
+  </synonym>
+</mdclass:CommonPicture>

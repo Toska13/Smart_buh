@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c2f90f8-b302-47dd-a138-bc8ac8c56784">
+  <name>СервисСтатусСамозанятого</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис 1С:Статус самозанятого</value>
+  </synonym>
+</mdclass:CommonPicture>

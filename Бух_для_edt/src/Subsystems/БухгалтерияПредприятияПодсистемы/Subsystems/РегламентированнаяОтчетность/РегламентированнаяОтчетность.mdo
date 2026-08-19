@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da2203b2-2d14-4848-a5ee-ac660e79b554">
+  <name>РегламентированнаяОтчетность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированная отчетность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.БухгалтерияПредприятияПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

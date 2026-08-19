@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7569edb6-3509-487c-a2b8-30c529dfec13">
+  <name>Reports_buh_smart</name>
+  <synonym>
+    <key>ru</key>
+    <value>Reports buh smart</value>
+  </synonym>
+  <namespace>http://1c.smart-t.me/reports_buh_smart</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/appearance-template</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/area-template</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/common</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/composition-template</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/core</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/details</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/result</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/schema</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data-composition-system/settings</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/enterprise</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/enterprise/current-config</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/txtedt</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/ui</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/xdto</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/bsl</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/bsl</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/chart</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/data-analysis</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/formatted-document</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/geo</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/graphscheme</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/spreadsheet</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/cmi</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/core</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/edbexception</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/logform</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/logform/layouter</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/logformexception</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/modules</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/seancecontextexception</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/managed-application/user-settings</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/uobjects</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/virtual-resource-system</value>
+  </xdtoPackages>
+  <descriptorFileName>reports_buh_smart.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="f84bd4a9-ebad-452c-a1d4-a788ac716dcb">
+    <name>ПолучитьДеревоРезультатаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить дерево результата запроса</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueTree</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ПолучитьДеревоРезультатаЗапроса</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="5588f9d0-089b-4e87-85ba-400556770ebd">
+      <name>ТекстЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст запроса</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="57cc3d14-2885-4697-b660-30b368b6939a">
+      <name>ПараметрыЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры запроса</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Structure</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4c0edde7-562d-4731-9160-7cb824a88267">
+    <name>ПолучитьТаблицуРезультатаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить таблицу результата запроса</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueTable</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ПолучитьТаблицуРезультатаЗапроса</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="20d7e408-4e59-4d7e-a8c1-7a368f361105">
+      <name>ТекстЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст запроса</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="7fb3f715-1e83-4b7c-963d-8937e4e0f014">
+      <name>ПараметрыЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры запроса</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Structure</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b2b8e8c2-0bbd-4726-9cfc-1a4b1f9c4fea" extendedConfigurationObject="8f09062a-1df7-4d58-adf2-1659c05288b8">
+  <producedTypes>
+    <objectType typeId="d63c449e-d8d0-483a-95d1-53c22d24d54f" valueTypeId="7f25e8aa-8be0-4b47-9b5c-169b890c0573"/>
+    <refType typeId="bcbd1c45-6940-407c-81ec-dfbf947c867b" valueTypeId="5834d7a0-25bf-4693-ab1d-bacf67873279"/>
+    <selectionType typeId="3212e567-4411-4e29-b266-74f958700c86" valueTypeId="215eddfc-e68f-4539-9bf5-42953fb90712"/>
+    <listType typeId="3ebfde05-7bac-4fb4-9786-21cb04a8e630" valueTypeId="170bb226-affc-42e7-9c75-074dffc0ccb7"/>
+    <managerType typeId="88107340-37c6-4d0e-91b0-2a577e90b2a7" valueTypeId="7005e62a-90f2-4165-b120-3f84dfe21e04"/>
+  </producedTypes>
+  <name>смартОснованияПодписиАвансовыхОтчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

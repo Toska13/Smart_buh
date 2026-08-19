@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3793015c-d268-42b2-ab53-1a48c9cfa728">
+  <producedTypes>
+    <objectType typeId="1ca33c24-b917-4e78-a241-a9593b22d320" valueTypeId="e9ddeb2e-843a-47e3-915a-05eb1d18f062"/>
+    <refType typeId="851fdf6e-7c97-41c4-b69e-fec4a414421e" valueTypeId="e52c3ddf-2cfd-45f0-bc06-ae60147ca844"/>
+    <selectionType typeId="5deab249-6008-494f-ae29-62da2e2c59f0" valueTypeId="2bc07b33-1f45-4c75-876a-b9a232b2d74c"/>
+    <listType typeId="ec0d14a3-3e84-4819-a1b0-a98f9f4a39ed" valueTypeId="de1e8ab3-7a61-4f1a-bed6-cc584f3a26f8"/>
+    <managerType typeId="6ae4ea52-be9a-4afa-912e-a93539af0d49" valueTypeId="12da9152-4e79-4152-9a19-008f8e998046"/>
+  </producedTypes>
+  <name>СписаниеСРасчетногоСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Document>

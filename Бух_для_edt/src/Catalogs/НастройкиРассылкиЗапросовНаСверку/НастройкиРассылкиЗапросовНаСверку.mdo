@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="738eb034-2592-4838-b18e-daed53bce0d1">
+  <producedTypes>
+    <objectType typeId="0744392d-0ab4-4dc9-a08a-d3592a50be26" valueTypeId="316854d1-3ea6-4098-9b24-3aea0ad7cbc8"/>
+    <refType typeId="f5a2df91-f0f1-448d-914e-7b7c351e2663" valueTypeId="3aed785c-e6ff-4e8e-b992-9479ee387374"/>
+    <selectionType typeId="795559d6-ae55-4eac-ab45-a233555b8dc2" valueTypeId="ef7d35ce-5835-4592-9319-3e09cc43f05a"/>
+    <listType typeId="f2b8173c-0e00-4603-a92f-b10a6f044b7c" valueTypeId="e3f0c704-1a0b-44e4-952e-8c2cc9a72e44"/>
+    <managerType typeId="237b8815-d145-4616-9a55-3c2553452f0b" valueTypeId="c9c9ad4b-3216-4185-ba41-b618ae5ee6d1"/>
+  </producedTypes>
+  <name>НастройкиРассылкиЗапросовНаСверку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки рассылки запросов на сверку с контрагентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиРассылкиЗапросовНаСверку.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Настройка рассылки запросов на сверку с контрагентами</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки рассылки запросов на сверку с контрагентами</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиРассылкиЗапросовНаСверку.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3a7d2338-67a2-46c5-a19b-257ed4f0ee47">
+    <name>ВыводитьПолныеНазванияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить полные названия документов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ee3b4e2-1f3f-4789-9d45-663e1b605cd1">
+    <name>ВыводитьСчетаФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить счета-фактуры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7ecaa48-bfde-41b3-89f9-efc3144fc021">
+    <name>ЗапрашиватьОригиналы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрашивать оригиналы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b25b3e07-64e1-4ad8-a0b6-b449943fb2aa">
+    <name>РазбитьПоДоговорам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разбить по договорам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7cd549b2-4849-4722-8831-028f507c259d">
+    <name>СпособЗапросаПоЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ запроса по ЭДО</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыЗапросаСверкиЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыЗапросаСверкиЭДО.EnumValue.ОтправитьПисьмо</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8f795ed-89b1-4170-8457-60df77b502e9">
+    <name>ПорядокСверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сверки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядокСверкиРасчетовСКонтрагентами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПорядокСверкиРасчетовСКонтрагентами.EnumValue.ОтправитьНашАктСверки</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f2f0858-f510-4e96-88e4-09f09daa9feb">
+    <name>ФорматыВложенийАктаСверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматы вложений акта сверки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1921f627-9a85-42ef-8ece-30fccfe9c240">
+    <name>ФорматыВложенийНеПолученыОригиналы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматы вложений не получены оригиналы</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33dafffc-81bc-47ac-9cc6-105b3cd861e1">
+    <name>ШаблонПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89fff1d8-513d-4656-af24-9d7d6ac1ac64">
+    <name>ШаблонТемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон темы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3aac370-59c1-4e9c-bc73-cb612ca60538">
+    <name>ВложенияТекстаШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложения текста шаблона</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9caeff30-260b-440d-8617-b790222c7669">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="97249270-2408-4dfd-b71b-62e499068054">
+    <name>ШаблонПисьма_ЗапроситьАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон письма (запросить акт)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9260ba6a-dd92-48b3-9839-3b7411d579eb">
+    <name>ШаблонПисьма_ЗапроситьАкт_НетЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон письма (запросить акт, нет ЭДО)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b4c393be-f0d9-4a3f-8bc0-4ab1b528674e">
+    <name>ШаблонПисьма_ОтправитьАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон письма (отправить акт)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="633f23ab-ba9e-4871-ae5b-3aebda059b6a">
+    <name>ШаблонПисьма_ОтправитьАкт_НетЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон письма (отправить акт, нет ЭДО)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b460c680-07fd-461a-a6f1-e16092890bf6">
+    <name>ШаблонТемы_ЗапроситьАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон темы (запросить акт)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="08dd7740-c8ac-4edf-80e2-7f00dcd75582">
+    <name>ШаблонТемы_ОтправитьАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон темы (отправить акт)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

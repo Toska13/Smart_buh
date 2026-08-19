@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32cf3b82-fbb0-44b8-8068-862435476a42">
+  <producedTypes>
+    <objectType typeId="1731dd1d-11c1-43c7-bb97-20e5474a892f" valueTypeId="8daf6636-7b92-432b-91c2-becc2a58582c"/>
+    <refType typeId="1180d9e9-7427-47ec-bb65-63b6cb15b33e" valueTypeId="82dfe777-d43e-4f76-bb30-bc8d23fed9b4"/>
+    <selectionType typeId="7f6b1e83-8bf7-444a-adbf-016c9ce377fa" valueTypeId="e62ff8a6-4ff6-4cd7-a64c-ea7df4d12c25"/>
+    <listType typeId="86037cd8-3de7-4c60-9209-574fa38604a6" valueTypeId="0b597810-bdd9-4ea5-bd4c-75952a882c43"/>
+    <managerType typeId="86a802bc-fb64-4421-b4d8-edfd4e15b6dd" valueTypeId="ebafe7ed-cc84-4076-8b9b-4c2a67de923b"/>
+  </producedTypes>
+  <name>смартПравилаОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила обмена данными (смарт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.смартПравилаОбменаДанными.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="747b5995-b41d-47d4-954e-62fdbfe6489c">
+      <name>ПравилаОбменаМаркировкойСУТ</name>
+      <description>Правила обмена маркировкой с УТ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.смартПравилаОбменаДанными.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9c663e4d-483a-48d3-b224-f8c5d52953ef">
+    <name>Правила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ee3c0f7-bdf5-4f1c-a366-db1d465b8c6c">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77c67cb4-aecb-479c-b66d-f2508351c9d1">
+    <name>ДатаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата загрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9311d2ac-fcdf-417c-92c1-6e364eee1b18">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

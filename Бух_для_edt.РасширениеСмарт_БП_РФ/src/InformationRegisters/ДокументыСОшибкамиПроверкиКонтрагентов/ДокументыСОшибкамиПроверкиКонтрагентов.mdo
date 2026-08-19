@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49ce3e1b-76ba-4f0b-849a-ecc063244d27" extendedConfigurationObject="b09fc04b-94d8-4dea-bf6c-24370f231274">
+  <producedTypes>
+    <selectionType typeId="d4b2d562-19a1-437b-9e46-b36c083593f4" valueTypeId="202e23cc-b6f0-4a73-9994-43e4131e00ae"/>
+    <listType typeId="f281d911-1671-43fe-a1ff-2d7f0358fcfd" valueTypeId="0d00ad27-a53b-4f08-9748-debc35b4a695"/>
+    <managerType typeId="5150390f-9bea-4c1e-a1b2-0f79a3d91d0e" valueTypeId="be6d106d-9ab4-4c83-a2b5-716012c91653"/>
+    <recordSetType typeId="4aa83a87-9dea-4ac2-9aad-0163787408da" valueTypeId="a2d7ea99-4900-4a00-acf4-6698adeb9e45"/>
+    <recordKeyType typeId="c03dcdcb-0fc1-42ed-a6fc-64d822df7e2b" valueTypeId="3ce343b2-3e1a-40e0-b804-f0e624827c08"/>
+    <recordType typeId="11a1972b-5ab2-49cf-82b4-4fed41bef825" valueTypeId="187f7325-7ea1-4a0c-bd2f-ebe0e6c4fc36"/>
+    <recordManagerType typeId="0b3b5e4d-5322-4f6e-a3bb-9b062ccc41c6" valueTypeId="6ca081a2-f6a8-4496-8403-7176405d79d2"/>
+  </producedTypes>
+  <name>ДокументыСОшибкамиПроверкиКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="78c25f46-8a64-4c30-a4af-9141bf0fa420" extendedConfigurationObject="e669a5cd-daf3-4a88-a2c0-380db496a4dd">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

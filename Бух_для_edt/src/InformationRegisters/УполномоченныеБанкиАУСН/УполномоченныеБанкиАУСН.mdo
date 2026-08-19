@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e8c2f88-3f81-4732-967b-95fd5ed8b9a0">
+  <producedTypes>
+    <selectionType typeId="4be30e7e-f0aa-48d5-b487-cd06297c1c5b" valueTypeId="40ff76a4-49f3-463f-9967-a81386f87424"/>
+    <listType typeId="3f22c6de-5f59-4e2c-b891-ce5731480212" valueTypeId="e35f16ae-58ba-45ff-8fa4-c0ca01e2d466"/>
+    <managerType typeId="04afd282-c686-47bb-ab12-e000912c9b9e" valueTypeId="6bd6d8fc-6fcb-4980-8241-aaa279b87b1c"/>
+    <recordSetType typeId="b376208f-355c-4b9a-b112-9b36594c79b0" valueTypeId="a87c47b2-724b-4846-aa91-be81c81b991a"/>
+    <recordKeyType typeId="3c48c5e0-6799-4c32-bead-9153a8aa1c19" valueTypeId="d0eeef04-1e35-4afd-b17b-d00ff1c325ef"/>
+    <recordType typeId="14859282-63bc-403d-9a0d-8000ab024638" valueTypeId="fa402592-0a7c-4542-8336-5eeed601ef56"/>
+    <recordManagerType typeId="01078dfc-5de0-4ad4-b4be-f47341da762e" valueTypeId="44c31b3c-0496-45ac-8467-e08f3b43657b"/>
+  </producedTypes>
+  <name>УполномоченныеБанкиАУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уполномоченные банки АУСН</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.УполномоченныеБанкиАУСН.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Уполномоченный банк АУСН</value>
+  </recordPresentation>
+  <resources uuid="e135e0db-2245-4961-9e3e-94bdf79d0288">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b330da6a-0ff2-4267-b993-2e8fd200f8c5">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="81045ea2-f5fc-4d4e-a399-a419d4e91f2f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

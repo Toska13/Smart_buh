@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eae7e942-330d-4873-936c-c27dce457863">
+  <producedTypes>
+    <refType typeId="74bbbdb6-a8aa-4d17-a4aa-fc5955de9321" valueTypeId="c89507d9-fbdc-466a-bccb-f488ff0b671e"/>
+    <listType typeId="3e8e630c-0199-49a8-9329-91ea553d9e0e" valueTypeId="1c294f47-13f8-410e-8ecd-10763c05580c"/>
+    <managerType typeId="5a0dd545-090f-46e0-8efa-2c5aaf8d1982" valueTypeId="63e3d860-814b-4fd4-8bfe-7286084dfe7a"/>
+  </producedTypes>
+  <name>ТипыЗадачНаПодписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы задач на подписание</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d183321-f108-4f68-a216-d809146fd9eb">
+    <name>ОтправитьНаПодписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить на подписание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b65b126-7e5e-4e7e-9521-67bee665e512">
+    <name>ПодтвердитьПриемИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвердить прием информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b968ea2-9405-4a42-97a7-cca948167531">
+    <name>ЗапроситьОбмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запросить обмен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd84e847-31f9-4357-aa9e-39e61cc28d7b">
+    <name>ОтправитьЗаявление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить заявление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

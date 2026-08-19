@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e53fe941-820c-4f13-a4a5-ab11aca12aec" extendedConfigurationObject="c23dc3c8-0087-4499-bae2-3749804afcb8">
+  <producedTypes>
+    <refType typeId="a0d2736e-6015-4d99-a24b-5eafaaaf4603" valueTypeId="185809c1-a943-49fa-8389-8affaa148c42"/>
+    <listType typeId="967c19bc-3505-456f-9e39-d043284ece40" valueTypeId="5ad6178b-272d-49cb-9215-3bda439a5e58"/>
+    <managerType typeId="d23d335b-d2f5-4763-833f-acda94430325" valueTypeId="04989e08-371c-4723-83e1-d3fbf6a67cfd"/>
+  </producedTypes>
+  <name>ВидыРасходовНУ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="3943bdc1-1b7e-4da2-a8b0-f72a93bfeaec" extendedConfigurationObject="6a844365-5a1d-47be-8ad9-e589abee55b1">
+    <name>МатериальныеРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

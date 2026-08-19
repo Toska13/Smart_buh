@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb2c9d39-0f2f-4edd-b2f7-3c1a65ba1978">
+  <name>смарт_ОперацияБухПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция бух при записи (смарт)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОперацияБух</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.смартОбщегоНазначения.смарт_ОперацияБухПриЗаписиПриЗаписи</handler>
+</mdclass:EventSubscription>

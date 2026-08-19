@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.СервисДоставки.Command.СписокЗаказов1СКурьерика</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.СервисДоставки.Command.ОтслеживаниеЗаказа</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.СервисДоставки.Command.СписокЗаказов1СКурьер</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.СервисДоставки.Command.ОтражениеДоставки</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.СервисДоставки.Command.СписокЗаказов1СКурьерика</commands>
+      <commands>DataProcessor.СервисДоставки.Command.СписокЗаказов</commands>
+      <commands>DataProcessor.СервисДоставки.Command.СписокЗаказов1ССДЭК</commands>
+      <commands>DataProcessor.СервисДоставки.Command.ОтслеживаниеЗаказа</commands>
+      <commands>DocumentJournal.ЭлектронныеПеревозочныеДокументы.Command.ЭлектронныеПеревозочныеДокументы</commands>
+      <commands>DataProcessor.СервисДоставки.Command.СписокЗаказов1СКурьер</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

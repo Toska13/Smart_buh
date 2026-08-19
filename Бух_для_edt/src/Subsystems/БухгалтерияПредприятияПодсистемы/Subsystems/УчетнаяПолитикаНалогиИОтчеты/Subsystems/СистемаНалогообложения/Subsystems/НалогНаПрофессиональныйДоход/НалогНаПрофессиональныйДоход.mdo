@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5781f156-e058-4d37-aa82-1408585e7033">
+  <name>НалогНаПрофессиональныйДоход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налог на профессиональный доход</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>FunctionalOption.ИспользуетсяНалогНаПрофессиональныйДоход</content>
+  <content>FunctionalOption.ПрименяетсяНалогНаПрофессиональныйДоход</content>
+  <content>Constant.ИспользуетсяНалогНаПрофессиональныйДоход</content>
+  <content>CommonModule.НалогНаПрофессиональныйДоходКлиент</content>
+  <content>Enum.СтатусыЧековНПД</content>
+  <content>CommonModule.НалогНаПрофессиональныйДоходВызовСервера</content>
+  <content>CommonModule.НалогНаПрофессиональныйДоходКлиентСервер</content>
+  <content>Constant.ИспользуютсяДоговорыССамозанятыми</content>
+  <content>FunctionalOption.ИспользуютсяДоговорыССамозанятыми</content>
+  <parentSubsystem>Subsystem.БухгалтерияПредприятияПодсистемы.Subsystem.УчетнаяПолитикаНалогиИОтчеты.Subsystem.СистемаНалогообложения</parentSubsystem>
+</mdclass:Subsystem>
